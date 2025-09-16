@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "Page Archive"
+permalink: /page-archive/
+author_profile: true
+---
+
+{% for page in site.pages %}
+  {% if page.archive %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

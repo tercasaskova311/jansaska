@@ -1,0 +1,11 @@
+<footer class="page__footer">
+  {% if site.author.github or site.author.bitbucket %}
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        {% if site.author.github %}
+          <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i> GitHub</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  {% endif %}
+</footer>
