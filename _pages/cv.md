@@ -1,91 +1,61 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
-permalink: /cv/
+title: "Jan's Professional MTB XCO Profile"
+permalink: /racer-cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - /mtb-racer
 ---
 
-## Education
+## Profile
 
-- **MSc. in Data Science**  
-  University of Trento, Italy — *2024–2026 (ongoing)*  
-  Courses: Machine Learning, Scientific Programming, Big Data Technologies, Statistics for Data Science
+Jan is a first-year Men’s Elite XCO MTB rider from the Czech Republic and the current Elite National Champion. In his debut elite World Cup season, he has been steadily moving up the ranks, with a recent result of 23rd at the European Championships.  
 
-- **BA in Marketing Communication**  
-  University of Finance and Administration, Prague — *2020–2023*
+Jan is a super technical rider, always exploring ways to progress rather than sticking to familiar training paths. Even without a large team behind him, he has successfully secured sponsors to support a full World Cup season. With the right support, Jan is ready to focus all his energy into racing and aim for consistent top World Cup results.
 
 ---
 
-## Work Experience
-- **Marketing and Sport Lead at Sport Šumava**
-  *2023-06-01 - present*
-  Leading marketing strategy and execution across performance, brand, and visual identity. Leading a summer program of a bike school.",
-  **Highlights**
-  - Marketing Analytics: Google Ads, Google Tag Manager, indexing and SEO improvements
-  - Brand Marketing: blog posts, Instagram campaigns, and newsletters,
+## Riding Style
 
-- **Bike & Ski Instructor**  
-  *Sport Šumava, Viadomd, MTB Italy* — 
-  *2020–2023*  
-  Led individual and group sessions for skiing and mountain biking. Focused on safety, skill-building, and performance analysis.  
-  **Highlights**:
-  - Designed personalized training plans  
-  - Organized and led large group activities  
-  - Applied pedagogical methods for all ages and skill levels  
+- Highly technical, excels on challenging terrain  
+- Focused on continuous improvement and innovation in training  
+- Strong strategic racer with an analytical approach to courses and performance  
 
 ---
 
-## Skills
+## Selected 2025 Results  
 
-- **Data Science**: Python, pandas, NumPy, matplotlib, seaborn  
-- **Machine Learning**: scikit-learn, supervised learning, model evaluation, image recognition  
-- **Big Data**: Apache Spark, Delta Lake, MongoDB (project-based)  
-- **Communication & Teaching**: Public speaking, coaching, teamwork
-
----
-
-## Languages
-
-- **Czech**: Native  
-- **English**: C2 (Fluent)  
-- **Italian**: Beginner (actively learning)
+- 🥇 **National Champion XCO** – Bedřichov (1st)  
+- 🥈 **Czech Cup Harrachov** (2nd)  
+- 🥈 **National Championships XCC Harrachov** (2nd)  
+- 🥈 **CS Cheile Gradistei** (2nd)  
+- 12th – **CS Les Menuires**  
+- 23rd – **European Championships, Melgaço**  
+- **World Cups:**  
+  - Val di Sole — 56th  
+  - Andorra — 55th  
+  - Les Gets — 49th  
 
 ---
 
-## Portfolio
+## Sponsors & Support
 
-### [From CNNs to Transformers: Top-k Image Retrieval](https://github.com/tercasaskova311/Top-k-Image-Retrieval-Image-recognition-)
-**Category**: Machine Learning  
-Implemented and evaluated CLIP, DINOv2, EfficientNet, ResNet, and GoogLeNet for Top-K image retrieval. Compared frozen and fine-tuned encoders, GAP vs. GeM pooling, and cosine similarity metrics.
+Jan has independently built a network of sponsors to support his racing ambitions, demonstrating professionalism, self-motivation, and commitment to the sport.
 
 ---
 
-### [Podcast Analytics & Recommendation Platform](https://github.com/tercasaskova311/podcast-recommendation-platform)
-**Category**: Big Data Technologies  
-Real-time + batch ingestion system using Apache Spark, Delta Lake, and MongoDB. Recommends podcasts using user interaction data and metadata.
+## Goals
+
+- Secure additional support to focus entirely on World Cup racing  
+- Achieve consistent top-20 finishes at international events  
+- Continue technical skill development and race strategy optimization  
 
 ---
 
-### [Reddit & Conflict: Israel–Palestine Discourse Analysis](https://github.com/tercasaskova311/Israel-Palestine-CSS-project)
-**Category**: Computational Social Science  
-Combined Reddit comments and verified conflict events from ACLED to analyze public discourse during major geopolitical events.
 
----
+## Contact  
 
-## Interests
-
-- Mountain biking 🚵‍♀️  
-- Ski touring 🎿  
-- Cognitive science 🧠  
-- Data visualization 📊  
-- Social data and conflict analysis 🌍
-
----
-
-## Service & Leadership
-
-- Volunteered as an instructor at community outdoor events  
-- Mentor for new riders and beginners  
-- Participated in university tech meetups and ML study groups
+For sponsorship, media inquiries, or collaborations:  
+- 📧 **Email:** [saskahonza@gmail.com](mailto:saskahonza@gmail.com)  
+- 📷 **Instagram:** [@h0nza.saska](https://www.instagram.com/h0nza.saska)  
+- 📊 **Strava:** [View Profile](https://www.strava.com/athletes/8804172)  

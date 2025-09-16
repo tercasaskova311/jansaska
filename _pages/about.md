@@ -6,23 +6,24 @@ author_profile: true
 classes: wide
 ---
 
-I'm **Tereza Sásková**, a student of the Master’s program in Data Science at the University of Trento and a former professional mountain biker.  
-My background blends sports, marketing, and tech — from organizing events and instructing at ski resorts to analyzing data and supporting NGOs.
+I’m **Jan Sáska**, a first-year Men’s Elite XCO MTB rider from the Czech Republic and the current Elite National Champion.  
+In my debut elite World Cup season, I’ve been steadily moving up the ranks — most recently finishing **23rd at the European Championship**.  
 
-**Currently:**  
-- Master of Science in Data Science, Trento (2024–2026)  
-- Marketing and Program Lead at Sport Šumava  
+I’m known as a **super technical rider**, always searching for new ways to progress instead of sticking to familiar training paths. Even without a big team behind me, I’ve successfully built my own support system of sponsors to compete in a full World Cup season.  
 
-**Previously:**  
-- Junior Vice-World Champion in MTB  
-- Multiple-time Czech National MTB Champion  
-- Ski & MTB Instructor in Switzerland and Italy  
+With the right support, I’m ready to channel all my energy into racing and aim for **consistent top World Cup results**.  
 
-**Skills:**  
-- Programming: SQL, Python  
-- Data tools: GitHub, Azure, Kafka, Apache Spark  
-- Data knowledge: ML basics, Data Engineering basics, Text Processing  
-- Marketing tools: Canva, Ecomail, Wix, etc.  
-- Communication & Team Leadership  
+---
 
-📄 [Download my CV]({{ "/files/TerezaSaskova_CV.pdf" | relative_url }})
+### 🏆 Selected 2025 Results
+- **National Champion XCO** – Bedřichov (1st)  
+- **Czech Cup Harrachov** (2nd)  
+- **National Champs XCC Harrachov** (2nd)  
+- **CS Cheile Gradistei** (2nd)  
+- **CS Les Menuires** (12th)  
+- **European Championships – Melgaço** (23rd)  
+- **World Cups:** Val di Sole (56th), Andorra (55th), Les Gets (49th)  
+
+---
+
+📄 [Download my presentation]({{ "/files/Jan_Saska_portfolio.pdf" | relative_url }})

@@ -1,25 +1,22 @@
 title: "Home"
 masthead_title: "Home"
 
-url: "https://tercasaskova311.github.io"
+url: "https:www.jansaska.github.io"
 baseurl: "/portfolio"                 # project site (repo name = portfolio)
-repository: "tercasaskova311/portfolio"
-minimal_mistakes_skin: "default"   # or "plum", "air", "dark", ...
+repository: "jansaska/portfolio"
+minimal_mistakes_skin: "yellow"   # or "plum", "air", "dark", ...
 
 author:
-  avatar: "/images/profile.jpg"
-  name: "Tereza Sásková"
-  bio: "Data science student • Ex-pro mountain biker • Ski & bike instructor"
-  teaser: "/images/profile.jpg"
-  location: "Italy, Trento"
-  employer: "University of Trento"
-  uri: "https://www.linkedin.com/in/tereza-saskova-527326235"
-  email: "tercasaskova311@gmail.com"
-  linkedin: "tereza-saskova-527326235"
-  github: "tercasaskova311"
-  kaggle: "terezasaskova"
+  avatar: "images/DSC05016.jpeg"
+  name: "Jan Sáska"
+  bio: "Professional MTB XCO Rider • Elite National Champion • World Cup Competitor"
+  teaser: "images/DSC05016.jpeg"
+  location: "Stachy, Czechia"
+  email: "saskahonza@gmail.com"
+  strava: "Honza Sáska"
+  instagram: "h0nza.saska"
 
-teaser: "preview.png"
+teaser: "images/DSC05016.jpeg"
 breadcrumbs: false
 words_per_minute: 160
 future: true
@@ -34,11 +31,11 @@ atom_feed:
 
 social:
   type: Person
-  name: Tereza Sásková
+  name: Jan Sáska
   links:
-    - https://www.linkedin.com/in/tereza-saskova-527326235
-    - https://github.com/tercasaskova311
-    - https://www.kaggle.com/terezasaskova
+    - 📧 **Email:** [saskahonza@gmail.com](mailto:saskahonza@gmail.com)  
+    - 📷 **Instagram:** [@h0nza.saska](https://www.instagram.com/h0nza.saska)  
+    - 📊 **Strava:** [View Profile](https://www.strava.com/athletes/8804172)  
 
 analytics:
   provider: false

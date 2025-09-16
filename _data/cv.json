@@ -1,140 +1,78 @@
 {
   "basics": {
-    "name": "Tereza Sásková",
-    "email": "tercasaskova311@gmail.com",
+    "name": "Jan Sáska",
+    "email": "saskahonza@gmail.com",
     "phone": "",
-    "website": "https://tercasaskova311.github.io/portfolio/",
-    "summary": "Data science student at University of Trento with a background in professional mountain biking.",
+    "website": "https://www.strava.com/athletes/8804172",
+    "summary": "Jan is a super technical MTB XCO rider from the Czech Republic, currently the 2025 Elite National Champion. He is constantly exploring ways to improve and innovate in his training rather than sticking to familiar paths. Even without a large team behind him, he has successfully secured sponsors to support a full World Cup season. With the right support, Jan is ready to focus all his energy on racing and aims for consistent top World Cup results.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Trento",
-      "countryCode": "IT",
-      "region": "Trentino-Alto Adige"
+      "city": "Stachy",
+      "countryCode": "CZ",
+      "region": "South Bohemia"
     },
     "profiles": [
       {
-        "network": "GitHub",
-        "username": "tercasaskova311",
-        "url": "https://github.com/tercasaskova311"
+        "network": "Instagram",
+        "username": "h0nza.saska",
+        "url": "https://www.instagram.com/h0nza.saska"
       },
       {
-        "network": "LinkedIn",
-        "username": "tereza-saskova-527326235",
-        "url": "https://www.linkedin.com/in/tereza-saskova-527326235/"
-      },
-      {
-        "network": "Kaggle",
-        "username": "terezasaskova",
-        "url": "https://www.kaggle.com/terezasaskova"
+        "network": "Strava",
+        "username": "Jan Sáska",
+        "url": "https://www.strava.com/athletes/8804172"
       }
     ]
   },
 
-  "work": [
-    {
-      "company": "Sport Šumava",
-      "position": "Marketing and Sport Lead",
-      "website": "",
-      "startDate": "2023-01-01",
-      "endDate": "",
-      "summary": "Leading marketing strategy and execution across performance, brand, and visual identity. Leading a summer program of a bike school.",
-      "highlights": [
-        "Marketing Analytics: Google Ads, Google Tag Manager, indexing and SEO improvements",
-        "Brand Marketing: blog posts, Instagram campaigns, and newsletters",
-        "Visual Branding: Canva/Figma for content design and brand consistency",
-        "Performance Analytics: data-driven evaluation of channels and engagement metrics"
-      ]
-    },
-    {
-      "company": "MTB Italy, Viadomd (Switzerland, Italy)",
-      "position": "Ski & Bike Instructor",
-      "website": "",
-      "startDate": "2022-05-01",
-      "endDate": "2023-12-31",
-      "summary": "Taught mountain biking and skiing to diverse age groups and skill levels; combined coaching with performance analysis.",
-      "highlights": [
-        "Built customized training plans and skill progressions",
-        "Organized and led large group sessions and camps",
-        "Adapted instruction to individual needs, goals, and safety requirements"
-      ]
-    }
-  ],
-
-  "education": [
-    {
-      "institution": "University of Trento",
-      "area": "Data Science",
-      "studyType": "Master's Degree",
-      "startDate": "2024-09-01",
-      "endDate": "2026",
-      "courses": [
-        "Machine Learning",
-        "Statistics for Data Science",
-        "Scientific Programming",
-        "Big Data Technologies"
-      ]
-    },
-    {
-      "institution": "University of Finance and Administration",
-      "area": "Bachelor in Marketing Communication",
-      "studyType": "Bachelor's Degree",
-      "startDate": "2020-09-01",
-      "endDate": "2023-06-30"
-    }
-  ],
-
-  "skills": [
-    {
-      "name": "Data Science",
-      "keywords": ["Python", "Pandas", "scikit-learn", "NumPy", "Matplotlib"]
-    },
-    {
-      "name": "Machine Learning",
-      "keywords": ["Supervised Learning", "Model Evaluation", "Image recognition"]
-    },
-    {
-      "name": "Communication",
-      "keywords": ["Teaching", "Coaching", "Teamwork"]
-    }
-  ],
+  "athletic_career": {
+    "description": "Jan is a first-year Men’s Elite XCO MTB rider competing in both national and international events. In his debut elite World Cup season, he has steadily moved up the ranks, demonstrating technical skill, resilience, and strategic racing ability.",
+    "selected_2025_results": [
+      { "event": "National Champion XCO – Bedřichov", "position": "1st" },
+      { "event": "Czech Cup Harrachov", "position": "2nd" },
+      { "event": "National Championships XCC Harrachov", "position": "2nd" },
+      { "event": "CS Cheile Gradistei", "position": "2nd" },
+      { "event": "CS Les Menuires", "position": "12th" },
+      { "event": "European Championships – Melgaço", "position": "23rd" },
+      { "event": "World Cup – Val di Sole", "position": "56th" },
+      { "event": "World Cup – Andorra", "position": "55th" },
+      { "event": "World Cup – Les Gets", "position": "49th" }
+    ]
+  },
 
   "languages": [
     { "language": "Czech", "fluency": "Native" },
-    { "language": "English", "fluency": "C2" },
-    { "language": "Italian", "fluency": "Beginner" }
+    { "language": "English", "fluency": "C2" }
+
   ],
 
   "interests": [
-    { "name": "Mountain biking" },
-    { "name": "Ski touring" },
-    { "name": "Big Data Technologies" },
-    { "name": "Cognitive science" }
+    { "name": "Mountain Biking" },
+    { "name": "Ski Touring" },
+    { "name": "Outdoor Sports" },
+    { "name": "Photography" }
   ],
 
-  "references": [],
-
-  "portfolio": [
+  "racing": [
     {
-      "name": "From CNNs to Transformers: Top-k Image Retrieval in a Competition Setting",
-      "category": "machine-learning",
-      "date": "2025-06-06",
-      "url": "https://github.com/tercasaskova311/Top-k-Image-Retrieval-Image-recognition-",
-      "description": "We implemented and evaluated multiple deep learning models, including CLIP, DINOv2, EfficientNet, ResNet, and GoogLeNet. Each model extracts feature embeddings from query and gallery images using a pretrained or fine-tuned encoder. Retrieval is performed by ranking gallery images according to cosine similarity with the query embedding. We tested both frozen and fine-tuned variants, and evaluated the impact of different pooling strategies (GAP vs. GeM) on retrieval performance."
+      "name": "2025 Elite National Championships",
+      "category": "Racing Achievements",
+      "date": "2025-06-01",
+      "url": "",
+      "description": "Crowned Elite National Champion XCO, demonstrating exceptional technical skill, endurance, and racing strategy."
     },
     {
-      "name": "Podcast Analytics & Recommendation Platform",
-      "category": "Big Data Technologies",
-      "date": "2025-06-05",
-      "url": "https://github.com/tercasaskova311/podcast-recommendation-platform",
-      "description": "The system ingests both real-time events (from users) and batch transcripts + metadata (about podcasts), processes the data using Apache Spark, stores it in a Delta Lake, and then exposes structured insights and personalized recommendations via MongoDB to be consumed by frontend applications."
+      "name": "European Championships, Melgaço 2025",
+      "category": "Racing Achievements",
+      "date": "2025-06-15",
+      "url": "",
+      "description": "Finished 23rd in the European Championships XCO, showing rapid progression in his first elite season."
     },
     {
-      "name": "Israel–Palestine Conflict & Reddit Discourse",
-      "category": "Computational Social Science",
-      "date": "2025-06-06",
-      "url": "https://github.com/tercasaskova311/Israel-Palestine-CSS-project",
-      "description": "This project analyzes how public discussion on Reddit responds to real-world conflict events in Gaza and the West Bank. We combine data from Reddit (online discourse) and ACLED (verified conflict events) to examine temporal relationships using Python-based data science methods."
+      "name": "World Cup 2025 Season",
+      "category": "Racing Achievements",
+      "date": "2025-08-01",
+      "url": "https://www.strava.com/athletes/8804172",
+      "description": "Debut elite World Cup season with strong performances: Val di Sole — 56th, Andorra — 55th, Les Gets — 49th."
     }
   ]
 }

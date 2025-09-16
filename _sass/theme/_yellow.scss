@@ -1,0 +1,16 @@
+// Yellow + Grey + White Theme
+$brand-color: #FFDE4D !default;  // Primary yellow
+$body-color: #333333 !default;   // Dark grey text
+$background-color: #ffffff !default; // White background
+$border-color: #e0e0e0 !default; // Light grey borders
+
+// Links & Buttons
+$link-color: $brand-color !default;
+$link-color-hover: darken($brand-color, 10%) !default;
+$btn-primary-color: #ffffff !default;
+$btn-primary-bg: $brand-color !default;
+$btn-primary-border: $brand-color !default;
+
+// Accents
+$accent-color: $brand-color !default;
+$muted-text-color: #666666 !default; // softer grey
