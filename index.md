@@ -7,15 +7,6 @@ classes: wide home-hero
 ---
 
 <section class="hero">
-
-  <!-- Video Background -->
-  <video class="hero__video-bg" autoplay muted loop playsinline poster="{{ '/images/DSC05016.jpeg' | relative_url }}">
-    <source src="{{ '/videos/FinaleLigure.mp4' | relative_url }}" type="video/mp4">
-    <source src="{{ '/videos/FinaleLigure.webm' | relative_url }}" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-
-  <!-- Content Overlay -->
   <div class="hero__content">
     <p class="eyebrow">Hi, I’m</p>
     <h1><span class="accent">Jan Sáska</span></h1>
@@ -27,9 +18,13 @@ classes: wide home-hero
     </div>
 
     <div class="hero__social" aria-hidden="false" role="navigation" aria-label="Social links">
-      <a href="https://www.instagram.com/h0nza.saska/" target="_blank" rel="noopener noreferrer" aria-label="Instagram — Jan Sáska">Instagram</a> ·
+      <a href="https://www.instagram.com/h0nza_saska/" target="_blank" rel="noopener noreferrer" aria-label="Instagram — Jan Sáska">Instagram</a> ·
       <a href="https://www.strava.com/athletes/8804172/" target="_blank" rel="noopener noreferrer" aria-label="Strava — Jan Sáska">Strava</a>
     </div>
+
   </div>
 
+  <div class="hero__image" role="img" aria-label="Portrait of Jan Sáska">
+    <img src="{{ '/images/DSC05016.jpeg' | relative_url }}" alt="Portrait of Jan Sáska">
+  </div>
 </section>
