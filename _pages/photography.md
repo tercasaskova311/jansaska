@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "Racing and Photography"
-tags: [sport, cycling, xco, mountainbikes]
-excerpt: "From racing lines to lenses"
+permalink: /photography/
+classes: wide
+author_profile: true
 ---
 
 
