@@ -1,16 +1,11 @@
 ---
-layout: single
+layout: post
 title: "Racing and Photography"
 date: 2025-08-21
-permalink: /posts/2025/09/racing-and-photography/
 tags: [sport, cycling, xco, mountainbikes]
 excerpt: "From racing lines to lenses"
-header:
-  teaser: /assets/images/mountain_safety_1.png
-classes: wide
-toc: true
-toc_sticky: true
 ---
+
 
 ## Photography and Racing
 
