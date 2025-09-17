@@ -1,0 +1,18 @@
+// yellow.scss — Minimal Mistakes skin variables (drop into _sass/minimal-mistakes/skins/)
+
+$brand-color: #FFDE4D !default;        // primary yellow
+$body-color: #333333 !default;         // main body text
+$background-color: #ffffff !default;   // page background
+$border-color: #f0f0f0 !default;       // card/border light grey
+
+// Links & buttons
+$link-color: $brand-color !default;
+$link-color-hover: darken($brand-color, 8%) !default;
+
+$btn-primary-color: #333333 !default;
+$btn-primary-bg: $brand-color !default;
+$btn-primary-border: $brand-color !default;
+
+// Accent + muted
+$accent-color: $brand-color !default;
+$muted-text-color: #6b7280 !default;
