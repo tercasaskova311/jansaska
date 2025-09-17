@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archieve
 title: "Racing and Photography"
 date: 2025-08-21
 tags: [sport, cycling, xco, mountainbikes]
