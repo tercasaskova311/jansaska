@@ -1,10 +1,11 @@
 ---
 title: "Racing"
-layout: collection            # use the theme's collection layout
+layout: collection
 permalink: /racing/
-collection: racing         # name of your collection
-entries_layout: list          # or "grid" (see CSS below)
+collection: racing
+entries_layout: list     # or "grid"
 classes: wide
 author_profile: false
 ---
+
 

@@ -12,7 +12,7 @@ author:
   teaser: "/images/DSC05016.jpeg"
   location: "Stachy, Czechia"
   email: "saskahonza@gmail.com"
-  instagram: "https://www.instagram.com/h0nza.saska"
+  instagram: "https://www.instagram.com/h0nza_saska/"
   strava: "https://www.strava.com/athletes/8804172"
 
 teaser: "/images/DSC05016.jpeg"
@@ -32,7 +32,7 @@ social:
   type: Person
   name: "Jan Sáska"
   links:
-    - https://www.instagram.com/h0nza.saska
+    - https://www.instagram.com/h0nza_saska/
     - https://www.strava.com/athletes/8804172
     - mailto:saskahonza@gmail.com
 
@@ -96,9 +96,10 @@ kramdown:
   enable_coderay: false
 
 collections:
-  portfolio:
+  racing:
     output: true
-    permalink: /portfolio/:name/
+    permalink: /racing/:name/
+
 
 defaults:
   - scope:

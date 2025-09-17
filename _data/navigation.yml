@@ -5,12 +5,11 @@ main:
   - title: "Racing"
     url: /racing/
 
-  
   - title: "Gallery"
     url: /gallery/
 
-  - title: "CV"
-    url: /cv/   # or /cv-json/ if you're using the JSON-based version
+  - title: "Collaboration"
+    url: /collaboration/   # or /cv-json/ if you're using the JSON-based version
 
   - title: "Blog"
     url: /blog/
