@@ -1,10 +1,9 @@
 ---
-title: "Racing season 2025 so far"
-collection: racing
+layout: single
+title: "Racing Season 2025 — So Far"
 permalink: /racing/
-layout: archive
-
 ---
+
 
 # Races & Achievements — 2025 Season
 
