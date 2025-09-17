@@ -21,6 +21,7 @@ classes: wide home-hero
       <a href="https://www.instagram.com/h0nza.saska/" target="_blank" rel="noopener noreferrer" aria-label="Instagram — Jan Sáska">Instagram</a> ·
       <a href="https://www.strava.com/athletes/8804172/" target="_blank" rel="noopener noreferrer" aria-label="Strava — Jan Sáska">Strava</a>
     </div>
+
   </div>
 
   <div class="hero__image" role="img" aria-label="Portrait of Jan Sáska">
