@@ -18,6 +18,8 @@ This video is self-documented, an attempt to capture that closeness—the way na
 
 Sports run in my family’s veins. We live through sport, and it is what keeps us together. We run a bike and ski school, manage a ski area, and share our passion with others. But these activities are just the surface—what really drives us is the love for being outside, exploring, and caring for the places we cherish.
 
+{{videos/FinaleLigure.MOV}}
+
 - **For love of nature**  
 - **For love of movement**  
 - **For family tradition**
