@@ -1,22 +1,21 @@
 title: "Home"
 masthead_title: "Home"
-
-url: "https:www.jansaska.github.io"
-baseurl: "/portfolio"                 # project site (repo name = portfolio)
-repository: "jansaska/portfolio"
-minimal_mistakes_skin: "yellow"   # or "plum", "air", "dark", ...
+url: "https://tercasaskova311.github.io"   # keep this as the user site root
+baseurl: "/jansaska"                       # project site path (repo name = jansaska)
+repository: "tercasaskova311/jansaska"
+minimal_mistakes_skin: "yellow"            # ensure you added _sass/.../yellow.scss
 
 author:
-  avatar: "images/DSC05016.jpeg"
+  avatar: "/images/DSC05016.jpeg"
   name: "Jan Sáska"
   bio: "Professional MTB XCO Rider • Elite National Champion • World Cup Competitor"
-  teaser: "images/DSC05016.jpeg"
+  teaser: "/images/DSC05016.jpeg"
   location: "Stachy, Czechia"
   email: "saskahonza@gmail.com"
-  strava: "Honza Sáska"
-  instagram: "h0nza.saska"
+  instagram: "https://www.instagram.com/h0nza.saska"
+  strava: "https://www.strava.com/athletes/8804172"
 
-teaser: "images/DSC05016.jpeg"
+teaser: "/images/DSC05016.jpeg"
 breadcrumbs: false
 words_per_minute: 160
 future: true
@@ -31,11 +30,11 @@ atom_feed:
 
 social:
   type: Person
-  name: Jan Sáska
+  name: "Jan Sáska"
   links:
-    - 📧 **Email:** [saskahonza@gmail.com](mailto:saskahonza@gmail.com)  
-    - 📷 **Instagram:** [@h0nza.saska](https://www.instagram.com/h0nza.saska)  
-    - 📊 **Strava:** [View Profile](https://www.strava.com/athletes/8804172)  
+    - https://www.instagram.com/h0nza.saska
+    - https://www.strava.com/athletes/8804172
+    - mailto:saskahonza@gmail.com
 
 analytics:
   provider: false
@@ -44,6 +43,7 @@ include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -122,16 +122,14 @@ defaults:
       layout: single
       author_profile: false
 
-
 sass:
   sass_dir: _sass
   style: compressed
 
-# site-wide permalinks for posts (collections have their own setting above)
 permalink: /:categories/:title/
-timezone: Europe/Rome
+timezone: Europe/Prague
 
-theme: ~                 # (= null) disables any gem theme if present
+theme: ~
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
