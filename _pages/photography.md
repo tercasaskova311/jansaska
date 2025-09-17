@@ -1,7 +1,6 @@
 ---
-layout: archieve
+layout: single
 title: "Racing and Photography"
-date: 2025-08-21
 tags: [sport, cycling, xco, mountainbikes]
 excerpt: "From racing lines to lenses"
 ---
