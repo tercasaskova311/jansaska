@@ -3,7 +3,7 @@ layout: single
 title: ""
 permalink: /
 author_profile: false
-classes: home-hero 
+classes: wide home-hero 
 ---
 
 <section class="hero">
