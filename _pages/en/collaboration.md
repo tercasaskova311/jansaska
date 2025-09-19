@@ -2,6 +2,7 @@
 layout: single
 title: "Collaboration"
 permalink: /collaboration/
+lang: en   # or 'en'
 ---
 
 ## Collaboration with Sponsors

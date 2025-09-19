@@ -2,6 +2,7 @@
 layout: single
 title: "Racing Season 2025 — So Far"
 permalink: /racing/
+lang: en   # or 'en'
 ---
 
 

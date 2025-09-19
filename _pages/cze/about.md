@@ -4,6 +4,7 @@ title: "About Me"
 permalink: /about/
 author_profile: true
 classes: wide
+lang: cze   # or 'en'
 ---
 
 

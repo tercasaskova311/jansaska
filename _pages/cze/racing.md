@@ -2,6 +2,7 @@
 layout: single
 title: „Závodní sezóna 2025 – dosavadní výsledky“
 permalink: /racing/
+lang: cze   # or 'en'
 ---
 
 

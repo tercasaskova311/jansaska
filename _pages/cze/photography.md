@@ -4,6 +4,7 @@ title: „Závody a fotografie“
 permalink: /photography/
 classes: wide
 author_profile: true
+lang: cze   # or 'en'
 ---
 
 

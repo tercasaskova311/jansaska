@@ -4,6 +4,7 @@ title: „Kontakt“
 permalink: /contact/
 author_profile: false
 classes: wide
+lang: cze   # or 'en'
 ---
 
 Pokud máte zájem o spolupráci, sponzorství nebo máte nějaké dotazy, nejrychleji mě zastihnete e-mailem.  

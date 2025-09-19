@@ -4,6 +4,7 @@ title: ""
 permalink: /
 author_profile: false
 classes: wide home-hero
+lang: en   # or 'en'
 ---
 
 <section class="hero">

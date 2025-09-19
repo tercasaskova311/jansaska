@@ -2,6 +2,7 @@
 layout: single
 title: „Spolupráce“
 permalink: /collaboration/
+lang: cze   # or 'en'
 ---
 
 ## Spolupráce se sponzory

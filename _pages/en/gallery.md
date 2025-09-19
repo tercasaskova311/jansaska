@@ -4,6 +4,7 @@ title: "Gallery"
 permalink: /gallery/
 classes: wide
 author_profile: true
+lang: en   # or 'en'
 ---
 
 <div class="gallery-grid">

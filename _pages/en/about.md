@@ -4,6 +4,8 @@ title: "About Me"
 permalink: /about/
 author_profile: true
 classes: wide
+lang: en   # or 'en'
+
 ---
 
 I’m **Jan Sáska**, a first-year Men’s Elite XCO MTB rider from the Czech Republic and the current Elite National Champion.  
