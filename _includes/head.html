@@ -1,24 +1,8 @@
-<meta charset="utf-8">
-
-{% include seo.html %}
-
-<link href="{% if site.atom_feed.path %}
-              {{ site.atom_feed.path | relative_url }}
-            {% else %}
-              {{ '/feed.xml' | relative_url }}
-            {% endif %}" 
-      type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-<meta http-equiv="cleartype" content="on">
+{%- if page.permalink -%}
+  <link rel="canonical" href="{{ site.url }}{{ page.permalink }}" />
+  <link rel="alternate" hreflang="cs" href="{{ site.url }}{{ page.permalink | replace_first: '/en/', '/cs/' }}" />
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.permalink | replace_first: '/cs/', '/en/' }}" />
+{%- else -%}
+  <link rel="alternate" hreflang="cs" href="{{ site.url }}/cs/" />
+  <link rel="alternate" hreflang="en" href="{{ site.url }}/en/" />
+{%- endif -%}

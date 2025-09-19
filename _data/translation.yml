@@ -1,0 +1,27 @@
+en:
+  nav:
+    about: "About"
+    racing: "Racing"
+    gallery: "Gallery"
+    collaboration: "Collaboration"
+    photography: "Photography"
+    contact: "Contact"
+  hero:
+    eyebrow: "Hi, I’m"
+    lead: "Professional mountain biker. Elite XCO MTB National Champion 2025."
+  see_results: "See my results"
+  about_me: "About me"
+
+cs:
+  nav:
+    about: "O mně"
+    racing: "Závody"
+    gallery: "Galerie"
+    collaboration: "Spolupráce"
+    photography: "Fotografie"
+    contact: "Kontakt"
+  hero:
+    eyebrow: "Ahoj, jsem"
+    lead: "Profesionální cyklista. Mistr republiky XCO 2025."
+  see_results: "Výsledky"
+  about_me: "O mně"

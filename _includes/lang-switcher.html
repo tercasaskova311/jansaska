@@ -1,0 +1,30 @@
+{%- assign curr = page.lang | default: site.default_lang -%}
+<nav class="lang-switcher" aria-label="Language switcher">
+  {%- for lang in site.languages -%}
+    {%- if lang == curr -%}
+      <span class="lang active">{{ lang | upcase }}</span>
+    {%- else -%}
+      {%- comment -%}
+      Try to compute parallel URL:
+        - if page.permalink exists and starts with "/en/" or "/cs/", replace that prefix
+        - otherwise link to language root
+      {%- endcomment -%}
+
+      {%- assign p = page.permalink | default: page.url | prepend: "" -%}
+      {%- if p and p != "" -%}
+        {%- assign segments = p | split: '/' -%}
+        {%- if segments.size > 1 and segments[1] == curr -%}
+          {%- comment -%} replace existing lang segment {%- endcomment -%}
+          {%- assign segments[1] = lang -%}
+          {%- assign new_url = segments | join: '/' -%}
+        {%- else -%}
+          {%- assign new_url = '/' | append: lang | append: p -%}
+        {%- endif -%}
+      {%- else -%}
+        {%- assign new_url = '/' | append: lang | append: '/' -%}
+      {%- endif -%}
+
+      <a class="lang" href="{{ new_url | relative_url }}">{{ lang | upcase }}</a>
+    {%- endif -%}
+  {%- endfor -%}
+</nav>

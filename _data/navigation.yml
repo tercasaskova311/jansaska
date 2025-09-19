@@ -1,4 +1,4 @@
-main:
+en:
   - title: "About"
     url: /about/
     
@@ -16,3 +16,24 @@ main:
 
   - title: "Contact"
     url: /contact/  # You can create a simple contact.md or mailto link
+
+cze: 
+  - title: "O mně"
+    url: /about/
+    
+  - title: "Výsledky"
+    url: /racing/
+
+  - title: "Galerie"
+    url: /gallery/
+
+  - title: "Spolupráce"
+    url: /collaboration/   # or /cv-json/ if you're using the JSON-based version
+
+  - title: "Fotografie"
+    url: /photography/
+
+  - title: "Kontakt"  
+    url: /contact/  # You can create a simple contact.md or mailto link
+
+
