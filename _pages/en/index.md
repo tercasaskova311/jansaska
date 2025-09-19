@@ -3,8 +3,7 @@ layout: single
 title: ""
 permalink: /
 author_profile: false
-classes: wide home-hero
-lang: en   # or 'en'
+classes: home-hero 
 ---
 
 <section class="hero">
