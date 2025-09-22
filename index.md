@@ -9,12 +9,13 @@ hide_page_header: true
 
 <div class="home-hero">
 
-  <!-- Video Background -->
-  <video autoplay muted loop playsinline class="background-video">
+  <!-- Video background -->
+  <video class="bg-video" autoplay muted loop playsinline>
     <source src="{{ '/videos/race_small.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 
-  <!-- Hero Content -->
+  <!-- Hero content -->
   <section class="hero">
     <p class="eyebrow">Hi, I’m</p>
     <h1><span class="accent">Jan Sáska</span></h1>
@@ -30,4 +31,6 @@ hide_page_header: true
       <a href="https://www.strava.com/athletes/8804172/">Strava</a>
     </div>
   </section>
+
 </div>
+

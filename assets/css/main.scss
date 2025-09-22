@@ -106,17 +106,23 @@ $text-on-primary: #000;        // black text on yellow for contrast
 .home-hero { position: relative; z-index: 0; }
 .home-hero .hero { position: relative; z-index: 1; }
 
-.home-hero video {
+.home-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full viewport height */
+  overflow: hidden;
+}
+
+.home-hero video.bg-video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* fills the area, maintains aspect ratio */
-  object-position: center; /* centers landscape video */
+  width: 100vw;  /* full viewport width */
+  height: 100vh; /* full viewport height */
+  object-fit: cover;  /* crop to fill, maintain aspect ratio */
+  object-position: center;
   z-index: 0;
 }
-
 
 .hero__actions .btn { margin-right: .5rem; }
 .hero__actions .btn--light-outline {
@@ -138,18 +144,16 @@ $text-on-primary: #000;        // black text on yellow for contrast
 
 /* ---------- NARROWER SIDEBAR ---------- */
 .sidebar.sticky {
-  width: 185px;        // narrower than before (was 250px)
-  max-width: 185px;
+  width: 250px;        // narrower than default
+  max-width: 250px;
 }
 .content-area {
-  margin-left: 195px;  // slightly more than sidebar width
+  margin-left: 270px;  // slightly more than sidebar width
 }
-
 @media (max-width: 900px) {
-  .sidebar.sticky { width: 160px; }
-  .content-area { margin-left: 170px; }
+  .sidebar.sticky { width: 200px; }
+  .content-area { margin-left: 210px; }
 }
-
 
 /* 4) Archive/portfolio cards */
 .archive .list__item{
