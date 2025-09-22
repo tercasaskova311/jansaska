@@ -104,16 +104,18 @@ $muted-color: #6b7280;       // Eyebrow / lead text
 /* Background band behind hero */
 .home-hero::before {
   content: "";
-  position: absolute; inset: 0 auto auto 0;
-  right: 0; top: 0; left: 0;
+  position: absolute;
+  inset: 0 auto auto 0;
+  right: 0;
+  top: 0;
+  left: 0;
   height: 360px;
-  background:
-    linear-gradient(to bottom, rgba($secondary-color,0.25), rgba($secondary-color,0)),
-    url('/assets/images/home-bg.jpg') center/cover no-repeat;
+  background: linear-gradient(to bottom, rgba($secondary-color,0.25), rgba($secondary-color,0));
   z-index: 0;
   border-bottom-left-radius: 28px;
   border-bottom-right-radius: 28px;
 }
+
 .home-hero { position: relative; z-index: 0; }
 .home-hero .hero { position: relative; z-index: 1; }
 
