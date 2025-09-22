@@ -5,13 +5,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* ---------- VARIABLES ---------- */
-$primary-color: #FFDE4D;
-$primary-color-dark: #e6cd3f; // slightly darker for hover
-$text-on-primary: #000; // black text on yellow buttons for contrast
-
-/* 1) Masthead: full-width primary color */
-.masthead { background: $primary-color !important; }
+/* 1) Masthead: full-width burgundy */
+.masthead { background: #800020 !important; }
 
 .masthead__inner-wrap,
 .masthead .wrapper,
@@ -32,13 +27,13 @@ $text-on-primary: #000; // black text on yellow buttons for contrast
   margin: 0 !important;
 }
 
-/* Links left, title right; primary text */
+/* Links left, title right; white text */
 .masthead .greedy-nav .visible-links { order: 1 !important; }
 .masthead .greedy-nav .site-title    { order: 2 !important; margin-left: auto !important; }
 .masthead .greedy-nav a,
-.masthead .greedy-nav .site-title { color: $text-on-primary !important; }
+.masthead .greedy-nav .site-title { color: #fff !important; }
 
-/* Hamburger: simple lines, no pill */
+/* Hamburger: simple white lines, no pill */
 .masthead .greedy-nav__toggle{
   position:absolute; left:16px; top:50%; transform:translateY(-50%);
   width:28px; height:22px; padding:0; margin:0;
@@ -47,13 +42,13 @@ $text-on-primary: #000; // black text on yellow buttons for contrast
 }
 .masthead .greedy-nav__toggle::before,
 .masthead .greedy-nav__toggle::after{
-  content:""; position:absolute; left:0; width:100%; height:2px; background:$text-on-primary;
+  content:""; position:absolute; left:0; width:100%; height:2px; background:#fff;
 }
 .masthead .greedy-nav__toggle::before{ top:4px; }
 .masthead .greedy-nav__toggle::after { bottom:4px; }
 .masthead .greedy-nav__toggle span{
   position:absolute; left:0; top:50%; transform:translateY(-50%);
-  display:block; width:100%; height:2px; background:$text-on-primary;
+  display:block; width:100%; height:2px; background:#fff;
 }
 .masthead .greedy-nav__toggle{ display:block !important; }
 
@@ -88,8 +83,8 @@ $text-on-primary: #000; // black text on yellow buttons for contrast
 }
 
 /* Name accent */
-.hero .accent { color: $primary-color !important; }
-.hero h1 { color: $primary-color; }
+.hero .accent { color: #800020 !important; }
+.hero h1 { color: #800020; }
 
 /* Background band behind hero */
 .home-hero::before {
@@ -98,7 +93,7 @@ $text-on-primary: #000; // black text on yellow buttons for contrast
   right: 0; top: 0; left: 0;
   height: 360px;
   background:
-    linear-gradient(to bottom, rgba(255,222,77,.25), rgba(255,222,77,0)),
+    linear-gradient(to bottom, rgba(128,0,32,.25), rgba(128,0,32,0)),
     url('/assets/images/home-bg.jpg') center/cover no-repeat;
   z-index: 0;
   border-bottom-left-radius: 28px;
@@ -109,11 +104,11 @@ $text-on-primary: #000; // black text on yellow buttons for contrast
 
 .hero__actions .btn { margin-right: .5rem; }
 .hero__actions .btn--light-outline {
-  border-color: rgba(255,222,77,.30);
-  color: $primary-color;
+  border-color: rgba(128,0,32,.30);
+  color: #800020;
 }
 .hero__actions .btn--light-outline:hover {
-  background: rgba(255,222,77,.06);
+  background: rgba(128,0,32,.06);
 }
 
 /* 3) About page sidebar */
@@ -144,22 +139,25 @@ $text-on-primary: #000; // black text on yellow buttons for contrast
   width:100%; height:100%; object-fit:cover;
 }
 
+/* Avoid :has() for broader compatibility; use a helper class instead if needed */
+/* .archive .list__item:not(:has(.archive__item-teaser)){ ... } */
+
 @media (max-width: 720px){
   .archive .list__item{ grid-template-columns:1fr; }
   .archive .list__item .archive__item-teaser{ height:200px; }
 }
 
-/* 5) Primary color, fully painted button */
+/* 5) Burgundy, fully painted button (for “See my work”) */
 .btn--burgundy {
-  background: $primary-color !important;
-  color: $text-on-primary !important;
-  border-color: $primary-color !important;
+  background: #800020 !important;
+  color: #fff !important;
+  border-color: #800020 !important;
 }
 .btn--burgundy:hover,
 .btn--burgundy:focus {
-  background: $primary-color-dark !important;   
-  border-color: $primary-color-dark !important;
-  color: $text-on-primary !important;
+  background: #6d001b !important;   /* slightly darker on hover */
+  border-color: #6d001b !important;
+  color: #fff !important;
 }
 
 /* wider, single-column portfolio cards */
