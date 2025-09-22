@@ -15,7 +15,7 @@ author_profile: true
 
 ## Why Collaborate with Jan
 
-Jan Sáska isn’t just a rider — he’s a passionate athlete and content creator. With a technical approach, dedication to progress, and a growing international following, collaboration offers brands a unique platform to engage with active, adventurous audiences.  
+Jan Sáska isn’t just a rider — he’s a passionate mountain biker. With a technical approach, dedication to progress, collaboration offers brands a unique platform.  
 
 **Highlights:**
 - Elite National Champion & World Cup competitor  
@@ -26,7 +26,7 @@ Jan Sáska isn’t just a rider — he’s a passionate athlete and content crea
 
 ## 1 — Company Bike Trips & Experiences
 
-Jan and his family run a professional bike school and MTB rental in the **Šumava mountains**. Sponsors can benefit from:
+Jan and his family run a bike school and MTB rental in the **Šumava mountains**. Sponsors can benefit from:
 
 - **Custom-guided MTB tours** for your team or clients  
 - **E-bike or full MTB rentals** tailored to experience level  
@@ -35,7 +35,11 @@ Jan and his family run a professional bike school and MTB rental in the **Šumav
 
 Explore our summer activities on [Instagram @sportsumava](https://www.instagram.com/sportsumava) or visit [sportsumava.cz](https://sportsumava.cz).  
 
-*Visual Idea: insert a small gallery of 2–3 images showing guided trips, bikes, and landscapes.*
+<img src="{{ 'images/CDC4E0A3-8D21-4E76-B4FC-A28AA063835F.jpeg
+' | relative_url }}" alt="pic1">
+
+<img src="{{ 'images/CC8684F9-1D10-4D97-9E94-B5C059991E33.jpeg
+' | relative_url }}" alt="pic1">
 
 ---
 
@@ -61,8 +65,10 @@ Sport content is a compelling storytelling tool. We create **high-quality photos
 
 These materials can be **shared on Instagram, websites, and brand campaigns** to build authentic engagement.
 
-*Visual Idea: insert a horizontal video clip or carousel of photos.*
-
+<video controls width="720" poster="{{ 'images/DSC05505.jpeg' | relative_url }}">
+  <source src="{{ '/videos/FinaleLigure_1080.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 
 ## 4 — Custom Branded Experiences

@@ -23,10 +23,11 @@ This video is self-documented, an attempt to capture that closeness—the way na
 
 Sports run in my family’s veins. We live through sport, and it is what keeps us together. We run a bike and ski school, manage a ski area, and share our passion with others. But these activities are just the surface—what really drives us is the love for being outside, exploring, and caring for the places we cherish.
 
-<video controls width="720" poster="{{ '/images/finale-poster.jpg' | relative_url }}">
-  <source src="{{ '/videos/FinaleLigure.mp4' | relative_url }}" type="video/mp4">
+<video controls width="480" poster="{{ '/images/novosedly-poster.jpg' | relative_url }}">
+  <source src="{{ '/videos/Novosedly_small.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 - **For love of nature**  
 - **For love of movement**  
