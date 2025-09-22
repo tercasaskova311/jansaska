@@ -2,34 +2,84 @@
 layout: single
 title: "Collaboration"
 permalink: /collaboration/
+classes: wide
+author_profile: true
 ---
 
-## Collaboration with Sponsors
-
-Jan Sáska is a highly technical rider, constantly seeking ways to progress beyond familiar training routines. Even without a large team behind him, he has successfully secured sponsorships to support a full World Cup season. With the right backing, Jan can focus entirely on racing and aim for consistent top-level World Cup results.
-
-As we approach the 2026 season, Jan is looking for sponsors to support the next World Cup campaign, particularly as the series expands into Asia and the USA.  
-
-Jan and his team view mountain biking as a broader and more dynamic sport than simply displaying logos on team jerseys. We believe our vision could align with your brand and offer unique promotional opportunities.
+<div class="page-hero" style="background: linear-gradient(to right, #FFDE4D, #F3F3F3); padding: 3rem 1rem; border-radius: 18px; text-align:center;">
+  <h1 class="accent">Collaborate with Jan Sáska</h1>
+  <p class="lead">Elite XCO MTB rider seeking forward-thinking partners for the 2026 season</p>
+</div>
 
 ---
 
-## 1 — Company Bike Trips
+## Why Collaborate with Jan
 
-Jan and his family run a successful bike school and rental service, built on years of professional cycling experience. In exchange for sponsorship, we offer fully guided tours around the Šumava mountains, with customized bikes tailored to your company’s needs.  
+Jan Sáska isn’t just a rider — he’s a passionate athlete and content creator. With a technical approach, dedication to progress, and a growing international following, collaboration offers brands a unique platform to engage with active, adventurous audiences.  
 
-You can learn more about our summer activities on [Instagram @sportsumava](https://www.instagram.com/sportsumava) or our website: [sportsumava.cz](https://sportsumava.cz).  
+**Highlights:**
+- Elite National Champion & World Cup competitor  
+- Authentic storytelling through photography & videography  
+- Opportunities for both traditional and experiential sponsorship
 
-We can provide e-bikes, experienced MTB guides, and personalized trips designed for your team or clients.
+---
+
+## 1 — Company Bike Trips & Experiences
+
+Jan and his family run a professional bike school and MTB rental in the **Šumava mountains**. Sponsors can benefit from:
+
+- **Custom-guided MTB tours** for your team or clients  
+- **E-bike or full MTB rentals** tailored to experience level  
+- **Professional MTB instructors & guides**  
+- Social media coverage & promotional photography
+
+Explore our summer activities on [Instagram @sportsumava](https://www.instagram.com/sportsumava) or visit [sportsumava.cz](https://sportsumava.cz).  
+
+*Visual Idea: insert a small gallery of 2–3 images showing guided trips, bikes, and landscapes.*
 
 ---
 
 ## 2 — Traditional Sponsorship
 
-We also value traditional sponsorships, including logo placement on jerseys, race kits, and other branding opportunities.  
+We offer classic sponsorship options that include:
+
+- Logo placement on **jerseys, race kits, and helmets**  
+- Branding on race-day media & online channels  
+- Feature in **newsletters, blogs, and social media campaigns**
+
+*Visual Idea: add a small graphic or mockup showing logo placement.*
 
 ---
 
-## 3 — Photography and Videography
+## 3 — Photography & Videography Collaborations
 
-In today’s era of branding and social media, sport is a unique and trustworthy platform for promotion. We offer collaboration opportunities in videography, photography, and content creation to highlight your brand authentically on social media and beyond.
+Sport content is a compelling storytelling tool. We create **high-quality photos and videos** for sponsors:
+
+- Behind-the-scenes race coverage  
+- Action shots during MTB events  
+- Lifestyle content linking sport, nature, and adventure  
+
+These materials can be **shared on Instagram, websites, and brand campaigns** to build authentic engagement.
+
+*Visual Idea: insert a horizontal video clip or carousel of photos.*
+
+---
+
+## 4 — Custom Branded Experiences
+
+Beyond tours and media content, we can design **bespoke sponsor experiences**:
+
+- Private MTB clinics with Jan & team  
+- Custom challenges for corporate wellness programs  
+- Exclusive brand features in social media campaigns  
+
+---
+
+## Interested in Partnering?
+
+Let’s create a **tailored collaboration plan** that fits your brand and objectives.  
+📩 Contact: [saskahonza@gmail.com](mailto:saskahonza@gmail.com)  
+📞 Phone: +420 XXX XXX XXX  
+
+---
+
