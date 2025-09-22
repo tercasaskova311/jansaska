@@ -1,7 +1,8 @@
 # Navigation structure for the site
+main: 
   - title: "About"
     url: /about/
-    
+  
   - title: "Racing"
     url: /racing/
 
