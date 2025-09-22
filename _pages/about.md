@@ -24,5 +24,4 @@ With the right support, I’m ready to channel all my energy into racing and aim
 - **European Championships – Melgaço** (23rd)  
 - **World Cups:** Val di Sole (56th), Andorra (55th), Les Gets (49th)  
 
----
-📄 [Download my presentation]({{ "/files/JanSaska_portfolio.pdf" | relative_url }})
+📄 [Download my presentation]({{ "files/JanSaska_portfolio.pdf" | relative_url }})
