@@ -2,7 +2,6 @@
 layout: single
 title: "Racing Season 2025 — So Far"
 permalink: /racing/
-
 ---
 
 
@@ -50,4 +49,3 @@ The World Cup circuit is next-level, both in terms of competition and pressure.
 What stands out: **steady upward movement** (from 56 → 49), closing the gap between Jan and the mid/high pack.  
 Each race delivers valuable experience — technical lines, strategy under fatigue, recovery, and race pacing — all feeding into the next challenges.
 
----

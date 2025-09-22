@@ -4,7 +4,6 @@ title: ""
 permalink: /
 author_profile: false
 classes: home-hero 
-
 ---
 
 <section class="hero">

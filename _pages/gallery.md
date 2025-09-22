@@ -4,7 +4,6 @@ title: "Gallery"
 permalink: /gallery/
 classes: wide
 author_profile: true
-
 ---
 
 <div class="gallery-grid">
