@@ -136,16 +136,18 @@ $text-on-primary: #000;        // black text on yellow for contrast
 
 /* ---------- NARROWER SIDEBAR ---------- */
 .sidebar.sticky {
-  width: 250px;        // narrower than default
-  max-width: 250px;
+  width: 185px;        // narrower than before (was 250px)
+  max-width: 185px;
 }
 .content-area {
-  margin-left: 270px;  // slightly more than sidebar width
+  margin-left: 195px;  // slightly more than sidebar width
 }
+
 @media (max-width: 900px) {
-  .sidebar.sticky { width: 200px; }
-  .content-area { margin-left: 210px; }
+  .sidebar.sticky { width: 160px; }
+  .content-area { margin-left: 170px; }
 }
+
 
 /* 4) Archive/portfolio cards */
 .archive .list__item{
