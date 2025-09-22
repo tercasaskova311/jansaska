@@ -35,11 +35,11 @@ Jan and his family run a bike school and MTB rental in the **Šumava mountains**
 
 Explore our summer activities on [Instagram @sportsumava](https://www.instagram.com/sportsumava) or visit [sportsumava.cz](https://sportsumava.cz).  
 
-<img src="{{ 'images/CDC4E0A3-8D21-4E76-B4FC-A28AA063835F.jpeg
-' | relative_url }}" alt="pic1">
-
-<img src="{{ 'images/CC8684F9-1D10-4D97-9E94-B5C059991E33.jpeg
-' | relative_url }}" alt="pic1">
+<!-- Images side by side -->
+<div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1rem; margin-bottom:1rem;">
+  <img src="{{ 'images/CDC4E0A3-8D21-4E76-B4FC-A28AA063835F.jpeg' | relative_url }}" alt="pic1" style="width:calc(50% - 0.5rem); border-radius:12px;">
+  <img src="{{ 'images/CC8684F9-1D10-4D97-9E94-B5C059991E33.jpeg' | relative_url }}" alt="pic2" style="width:calc(50% - 0.5rem); border-radius:12px;">
+</div>
 
 ---
 
@@ -65,10 +65,14 @@ Sport content is a compelling storytelling tool. We create **high-quality photos
 
 These materials can be **shared on Instagram, websites, and brand campaigns** to build authentic engagement.
 
-<video controls width="720" poster="{{ 'images/DSC05505.jpeg' | relative_url }}">
-  <source src="{{ '/videos/FinaleLigure_1080.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<!-- Video with reduced vertical spacing -->
+<div style="margin:1rem 0;">
+  <video controls width="720" style="display:block; margin:0 auto;" poster="{{ 'images/DSC05505.jpeg' | relative_url }}">
+    <source src="{{ '/videos/FinaleLigure_1080.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ---
 
 ## 4 — Custom Branded Experiences
