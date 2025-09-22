@@ -66,7 +66,7 @@ Sport content is a compelling storytelling tool. We create **high-quality photos
 These materials can be **shared on Instagram, websites, and brand campaigns** to build authentic engagement.
 
 <!-- Video with reduced vertical spacing -->
-<div style="margin:1rem 0;">
+<div style="margin:0; line-height:0; text-align:center;">
   <video controls width="720" style="display:block; margin:0 auto;" poster="{{ 'images/DSC05505.jpeg' | relative_url }}">
     <source src="{{ '/videos/FinaleLigure_1080.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
