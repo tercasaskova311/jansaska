@@ -4,10 +4,6 @@ title: ""
 permalink: /
 author_profile: false
 classes: wide home-hero
-
-header:
-  image: "/images/DSC05016.jpeg"
-  overlay_color: "#FFDE4D"
 ---
 
 <div class="home-hero">
