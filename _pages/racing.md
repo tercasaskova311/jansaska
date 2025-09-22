@@ -7,6 +7,8 @@ permalink: /racing/
 Jan Sáska’s first full season in the Men’s Elite XCO category has already become one to remember.  
 The young Czech rider has not just shown up — he’s shown **progress**, technical skill, and ability to adapt to the tough demands of international racing.
 
+<img src="{{ 'images/IMG_2042.JPG' | relative_url }}" alt="pic1">
+
 ---
 
 ## 🏆 Headline Wins & Podiums
@@ -18,7 +20,7 @@ The young Czech rider has not just shown up — he’s shown **progress**, techn
 - 🥈 **National Championships XCC, Harrachov — 2nd**  
 - 🥈 **CS Cheile Grădiștei — 2nd**  
 
-<img src="{{ 'images/IMG_2042.JPG' | relative_url }}" alt="pic1">
+<img src="{{ 'images/DSC05016.jpeg' | relative_url }}" alt="pic1">
 
 These podiums show consistency in varying conditions: the domestic races (Harrachov) where expectations are high, and abroad (Cheile Grădiștei), proving adaptability.
 
@@ -46,6 +48,8 @@ The World Cup circuit is next-level, both in terms of competition and pressure.
 | Val di Sole  | 56th     |
 | Andorra      | 55th     |
 | Les Gets     | 49th     |
+
+<img src="{{ 'images/CER_4969.jpg' | relative_url }}" alt="pic1">
 
 What stands out: **steady upward movement** (from 56 → 49), closing the gap between Jan and the mid/high pack.  
 Each race delivers valuable experience — technical lines, strategy under fatigue, recovery, and race pacing — all feeding into the next challenges.
