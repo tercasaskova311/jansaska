@@ -5,20 +5,13 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* ------------------------
-   COLOR VARIABLES
------------------------- */
-$primary-color: #FFDE4D;    // Masthead & button
-$secondary-color: #800020;  // Accent / Hero
-$text-color: #333;           // General text
-$muted-color: #6b7280;       // Eyebrow / lead text
+/* ---------- VARIABLES ---------- */
+$primary-color: #FFDE4D;
+$primary-color-dark: #e6cd3f; // slightly darker for hover
+$text-on-primary: #000; // black text on yellow buttons for contrast
 
-/* ------------------------
-   1) Masthead
------------------------- */
-.masthead {
-  background: $primary-color !important;
-}
+/* 1) Masthead: full-width primary color */
+.masthead { background: $primary-color !important; }
 
 .masthead__inner-wrap,
 .masthead .wrapper,
@@ -35,16 +28,15 @@ $muted-color: #6b7280;       // Eyebrow / lead text
   background: transparent !important;
   border-radius: 0 !important;
   box-shadow: none !important;
-  display: flex; 
-  align-items: center;
+  display: flex; align-items: center;
   margin: 0 !important;
 }
 
-/* Links left, title right */
+/* Links left, title right; primary text */
 .masthead .greedy-nav .visible-links { order: 1 !important; }
 .masthead .greedy-nav .site-title    { order: 2 !important; margin-left: auto !important; }
 .masthead .greedy-nav a,
-.masthead .greedy-nav .site-title { color: $text-color !important; }
+.masthead .greedy-nav .site-title { color: $text-on-primary !important; }
 
 /* Hamburger: simple lines, no pill */
 .masthead .greedy-nav__toggle{
@@ -55,21 +47,19 @@ $muted-color: #6b7280;       // Eyebrow / lead text
 }
 .masthead .greedy-nav__toggle::before,
 .masthead .greedy-nav__toggle::after{
-  content:""; position:absolute; left:0; width:100%; height:2px; background:$text-color;
+  content:""; position:absolute; left:0; width:100%; height:2px; background:$text-on-primary;
 }
 .masthead .greedy-nav__toggle::before{ top:4px; }
 .masthead .greedy-nav__toggle::after { bottom:4px; }
 .masthead .greedy-nav__toggle span{
   position:absolute; left:0; top:50%; transform:translateY(-50%);
-  display:block; width:100%; height:2px; background:$text-color;
+  display:block; width:100%; height:2px; background:$text-on-primary;
 }
 .masthead .greedy-nav__toggle{ display:block !important; }
 
 .masthead .site-logo { display: none !important; }
 
-/* ------------------------
-   2) Hero card + backdrop band
------------------------- */
+/* 2) Hero card + backdrop band */
 .home-hero { position: relative; background: transparent !important; }
 
 .hero {
@@ -84,8 +74,8 @@ $muted-color: #6b7280;       // Eyebrow / lead text
   box-shadow: 0 12px 30px rgba(0,0,0,.08);
 }
 
-.eyebrow { color:$muted-color; font-weight:600; letter-spacing:.02em; margin:0 0 .25rem; }
-.hero .lead { color:$muted-color; max-width:38ch; }
+.eyebrow { color:#6b7280; font-weight:600; letter-spacing:.02em; margin:0 0 .25rem; }
+.hero .lead { color:#6b7280; max-width:38ch; }
 
 .hero__image img {
   width: min(480px, 100%);
@@ -98,40 +88,35 @@ $muted-color: #6b7280;       // Eyebrow / lead text
 }
 
 /* Name accent */
-.hero .accent { color: $secondary-color !important; }
-.hero h1 { color: $text-color; }
+.hero .accent { color: $primary-color !important; }
+.hero h1 { color: $primary-color; }
 
 /* Background band behind hero */
 .home-hero::before {
   content: "";
-  position: absolute;
-  inset: 0 auto auto 0;
-  right: 0;
-  top: 0;
-  left: 0;
+  position: absolute; inset: 0 auto auto 0;
+  right: 0; top: 0; left: 0;
   height: 360px;
-  background: linear-gradient(to bottom, rgba($secondary-color,0.25), rgba($secondary-color,0));
+  background:
+    linear-gradient(to bottom, rgba(255,222,77,.25), rgba(255,222,77,0)),
+    url('/assets/images/home-bg.jpg') center/cover no-repeat;
   z-index: 0;
   border-bottom-left-radius: 28px;
   border-bottom-right-radius: 28px;
 }
-
 .home-hero { position: relative; z-index: 0; }
 .home-hero .hero { position: relative; z-index: 1; }
 
-/* Buttons inside hero */
 .hero__actions .btn { margin-right: .5rem; }
 .hero__actions .btn--light-outline {
-  border-color: rgba($primary-color,.30);
+  border-color: rgba(255,222,77,.30);
   color: $primary-color;
 }
 .hero__actions .btn--light-outline:hover {
-  background: rgba($primary-color,.06);
+  background: rgba(255,222,77,.06);
 }
 
-/* ------------------------
-   3) About page sidebar
------------------------- */
+/* 3) About page sidebar */
 .author__avatar img {
   width: 120px; height: 120px;
   object-fit: cover;
@@ -140,9 +125,7 @@ $muted-color: #6b7280;       // Eyebrow / lead text
 }
 .author__bio { font-size: .95rem; line-height: 1.55; }
 
-/* ------------------------
-   4) Archive / Portfolio cards
------------------------- */
+/* 4) Archive/portfolio cards */
 .archive .list__item{
   display:grid;
   grid-template-columns: 240px 1fr;
@@ -166,24 +149,20 @@ $muted-color: #6b7280;       // Eyebrow / lead text
   .archive .list__item .archive__item-teaser{ height:200px; }
 }
 
-/* ------------------------
-   5) Burgundy / Primary Button
------------------------- */
-.btn--primary {
+/* 5) Primary color, fully painted button */
+.btn--burgundy {
   background: $primary-color !important;
-  color: #fff !important;
+  color: $text-on-primary !important;
   border-color: $primary-color !important;
 }
-.btn--primary:hover,
-.btn--primary:focus {
-  background: darken($primary-color, 10%) !important;
-  border-color: darken($primary-color, 10%) !important;
-  color: #fff !important;
+.btn--burgundy:hover,
+.btn--burgundy:focus {
+  background: $primary-color-dark !important;   
+  border-color: $primary-color-dark !important;
+  color: $text-on-primary !important;
 }
 
-/* ------------------------
-   6) Wider Portfolio cards
------------------------- */
+/* wider, single-column portfolio cards */
 .wide .archive { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
 
 .list .archive__item{
