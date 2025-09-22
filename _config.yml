@@ -2,8 +2,6 @@ title: "Home"
 masthead_title: "Home"
 url: "https://tercasaskova311.github.io"   # keep this as the user site root
 baseurl: "/jansaska" 
-languages: ["en", "cze"]
-default_lang: "cze"                     # project site path (repo name = jansaska)
 repository: "tercasaskova311/jansaska"
 minimal_mistakes_skin: "yellow"            # ensure you added _sass/.../yellow.scss
 
