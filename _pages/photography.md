@@ -4,7 +4,6 @@ title: "Racing and Photography"
 permalink: /photography/
 classes: wide
 author_profile: true
-lang: en   # or 'en'
 ---
 
 

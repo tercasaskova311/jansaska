@@ -4,7 +4,6 @@ title: "Contact"
 permalink: /contact/
 author_profile: false
 classes: wide
-lang: en   # or 'en'
 ---
 
 If you’d like to collaborate, sponsor, or have questions, the fastest way to reach me is by email.  
