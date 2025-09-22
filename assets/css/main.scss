@@ -162,6 +162,13 @@ $text-on-primary: #000; // black text on yellow for contrast
   color: $text-on-primary !important;
 }
 
+.page__content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px; // optional, matches your card style
+  margin: 1rem 0;      // spacing above and below
+}
+
 /* wider, single-column portfolio cards */
 .wide .archive { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
 

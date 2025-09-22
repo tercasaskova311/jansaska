@@ -18,6 +18,8 @@ The young Czech rider has not just shown up — he’s shown **progress**, techn
 - 🥈 **National Championships XCC, Harrachov — 2nd**  
 - 🥈 **CS Cheile Grădiștei — 2nd**  
 
+<img src="{{ 'images/IMG_2042.JPG' | relative_url }}" alt="pic1">
+
 These podiums show consistency in varying conditions: the domestic races (Harrachov) where expectations are high, and abroad (Cheile Grădiștei), proving adaptability.
 
 ---
@@ -26,6 +28,8 @@ These podiums show consistency in varying conditions: the domestic races (Harrac
 
 - 🔟 **CS Les Menuires — 12th**  
 - 🔟 **European Championships, Melgaço — 23rd**  
+
+<img src="{{ 'images/FD8D2C52-6E2F-4D33-9DE7-CB1E04A46666.jpg' | relative_url }}" alt="pic1">
 
 These results show that Jan is not just dominating at home — he’s holding his own in Europe. Melgaço was especially demanding, and the 23rd position is a strong baseline to build from.
 
