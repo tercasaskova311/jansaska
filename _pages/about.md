@@ -6,12 +6,12 @@ author_profile: true
 classes: wide
 ---
 
-I’m **Jan Sáska**, a first-year Men’s Elite XCO MTB rider from the Czech Republic and the current Elite National Champion.  
-In my debut elite World Cup season, I’ve been steadily moving up the ranks — most recently finishing **23rd at the European Championship**.  
+**Jan Sáska** is first-year Men’s Elite XCO MTB rider from the Czech Republic and the current Elite National Champion.  
+In his debut elite World Cup season, He has been steadily moving up the ranks — most recently finishing **23rd at the European Championship**.  
 
-I’m known as a **super technical rider**, always searching for new ways to progress instead of sticking to familiar training paths. Even without a big team behind me, I’ve successfully built my own support system of sponsors to compete in a full World Cup season.  
+He is known as a **technical rider**, always searching for new ways to progress instead of sticking to familiar training paths. Even without a big team behind him, He has successfully built his own support system of sponsors to compete in a full World Cup season.  
 
-With the right support, I’m ready to channel all my energy into racing and aim for **consistent top World Cup results**.  
+With the right support, He is ready to channel all his energy into racing and aim for **consistent top World Cup results**.  
 
 ---
 

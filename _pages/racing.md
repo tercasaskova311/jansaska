@@ -4,9 +4,6 @@ title: "Racing Season 2025 — So Far"
 permalink: /racing/
 ---
 
-
-# Races & Achievements — 2025 Season
-
 Jan Sáska’s first full season in the Men’s Elite XCO category has already become one to remember.  
 The young Czech rider has not just shown up — he’s shown **progress**, technical skill, and ability to adapt to the tough demands of international racing.
 
