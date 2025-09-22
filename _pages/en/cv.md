@@ -5,6 +5,7 @@ permalink: /racer-cv/
 author_profile: true
 redirect_from:
   - /mtb-racer
+lang: en
 ---
 
 ## Profile
