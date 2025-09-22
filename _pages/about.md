@@ -50,9 +50,10 @@ classes: wide
 ### Training & Race Video
 
 <div style="text-align:center; margin-top:1rem; margin-bottom:1rem;">
-  <video controls width="480" style="display:block; margin:0 auto; border-radius:12px;" poster="{{ 'images/DSC04938(1).jpeg' | relative_url }}">
+  <video controls style="width:100%; max-width:960px; border-radius:12px; display:block; margin:0 auto;" poster="{{ 'images/DSC04938(1).jpeg' | relative_url }}">
     <source src="{{ '/videos/race_small.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p style="margin-top:.5rem; font-style:italic;">Highlights of Jan’s training and races in the Šumava mountains.</p>
 </div>
+
