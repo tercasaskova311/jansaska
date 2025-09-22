@@ -7,16 +7,16 @@ author_profile: true
 ---
 
 <!-- Page Hero -->
-<div class="page-hero" style="background: linear-gradient(to right, #FFDE4D, #F3F3F3); padding: 3rem 1rem; border-radius: 18px; text-align:center;">
-  <h1 class="accent">Collaborate with Jan Sáska</h1>
-  <p class="lead"><em>Elite XCO MTB rider seeking forward-thinking partners for the 2026 season</em></p>
+<div class="page-hero" style="background: linear-gradient(to right, #FFDE4D, #F3F3F3); padding: 3rem 1rem; border-radius: 18px; text-align:center;" markdown="1">
+# Collaborate with Jan Sáska
+*Elite XCO MTB rider seeking forward-thinking partners for the 2026 season*
 </div>
 
 ---
 
 ## Why Collaborate with Jan
 
-<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
 Jan Sáska isn’t just a rider — he’s a passionate mountain biker. With a technical approach and dedication to progress, collaboration offers brands a **unique platform for exposure and engagement**.
 
 **Key Highlights:**  
@@ -29,7 +29,7 @@ Jan Sáska isn’t just a rider — he’s a passionate mountain biker. With a t
 
 ## 1 — Company Bike Trips & Experiences
 
-<div style="background:#fff; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+<div style="background:#fff; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
 Jan and his family run a bike school and MTB rental in the **Šumava mountains**. Sponsors can benefit from:
 
 - **Custom-guided MTB tours** for your team or clients  
@@ -50,21 +50,21 @@ Explore our summer activities on [Instagram @sportsumava](https://www.instagram.
 
 ## 2 — Traditional Sponsorship
 
-<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
 We offer classic sponsorship options, including:
 
 - Logo placement on **jerseys, race kits, and helmets**  
 - Branding on race-day media & online channels  
 - Feature in **newsletters, blogs, and social media campaigns**
 
-<em>Visual mockups can be included to highlight logo placement opportunities.</em>
+*Visual mockups can be included to highlight logo placement opportunities.*
 </div>
 
 ---
 
 ## 3 — Photography & Videography Collaborations
 
-<div style="background:#fff; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+<div style="background:#fff; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
 Sport content is a compelling storytelling tool. We create **high-quality photos and videos** for sponsors:
 
 - Behind-the-scenes race coverage  
@@ -72,21 +72,21 @@ Sport content is a compelling storytelling tool. We create **high-quality photos
 - Lifestyle content linking sport, nature, and adventure  
 
 These materials can be **shared on Instagram, websites, and brand campaigns** to build authentic engagement.
+</div>
 
 <!-- Video with reduced spacing -->
 <div style="margin:0; line-height:0; text-align:center;">
-  <video controls width="720" style="display:block; margin:0 auto;" poster="{{ 'images/IMG_8250 2.JPG' | relative_url }}">
+  <video controls width="100%" style="display:block; margin:0 auto; border-radius:12px;" poster="{{ 'images/IMG_8250 2.JPG' | relative_url }}">
     <source src="{{ 'videos/race_small.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>
 </div>
 
 ---
 
 ## 4 — Custom Branded Experiences
 
-<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
 Beyond tours and media content, we can design **bespoke sponsor experiences**:
 
 - Private MTB clinics with Jan & team  
@@ -98,7 +98,7 @@ Beyond tours and media content, we can design **bespoke sponsor experiences**:
 
 ## Interested in Partnering?
 
-<div style="background:#fff; padding:1.5rem; border-radius:12px; text-align:center;">
+<div style="background:#fff; padding:1.5rem; border-radius:12px; text-align:center;" markdown="1">
 Let’s create a **tailored collaboration plan** that fits your brand and objectives.  
 
 📩 Contact: [saskahonza@gmail.com](mailto:saskahonza@gmail.com)  
