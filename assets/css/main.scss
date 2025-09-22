@@ -112,9 +112,11 @@ $text-on-primary: #000;        // black text on yellow for contrast
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* fills the area, maintains aspect ratio */
+  object-position: center; /* centers landscape video */
   z-index: 0;
 }
+
 
 .hero__actions .btn { margin-right: .5rem; }
 .hero__actions .btn--light-outline {
