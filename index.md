@@ -9,7 +9,7 @@ hide_page_header: true
 
 <div class="home-hero" style="position:relative; overflow:hidden; height:100vh;">
 
-  <!-- Video Background autoplaying -->
+  <!-- Video Background (autoplay, muted, loop, playsinline) -->
   <video autoplay muted loop playsinline style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0;">
     <source src="{{ '/videos/race_small.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
@@ -34,5 +34,6 @@ hide_page_header: true
       <a href="https://www.instagram.com/h0nza_saska/" target="_blank" rel="noopener noreferrer" style="color:#fff;">Instagram</a> ·
       <a href="https://www.strava.com/athletes/8804172/" target="_blank" rel="noopener noreferrer" style="color:#fff;">Strava</a>
     </div>
+    
   </section>
 </div>
