@@ -29,8 +29,10 @@ classes: wide
 </ul>
 
 <!-- Download Button -->
-<div style="margin-top:1.5rem;">
-  <a class="btn btn--burgundy" href="{{ 'files/JanSaska_portfolio.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">📄 Download My Presentation</a>
+<div style="margin-top:1.5rem; text-align:center;">
+  <a class="btn btn--burgundy" href="{{ 'files/JanSaska_portfolio.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    📄 Download Presentation
+  </a>
 </div>
 
 ---
