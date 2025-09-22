@@ -2,6 +2,7 @@
 title: "Blog Archive"
 layout: archive
 permalink: /archive/
+
 ---
 
 A collection of thoughts, projects, and learnings from my journey through data science, research, and sport.

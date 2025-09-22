@@ -2,6 +2,7 @@
 title: "Config Debug"
 permalink: /config-debug/
 layout: single
+
 ---
 
 - site.theme: `{{ site.theme | inspect }}`
