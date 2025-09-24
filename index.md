@@ -7,6 +7,20 @@ classes: wide home-hero
 hide_page_header: true
 ---
 
+<!-- Loading Screen -->
+<div class="loading-screen" id="loading-screen">
+  <div class="loader">
+    <div class="bike-wheel">
+      <div class="spokes"></div>
+      <div class="rim"></div>
+    </div>
+    <p class="loading-text">Loading Jan Sáska</p>
+    <div class="loading-bar">
+      <div class="loading-progress"></div>
+    </div>
+  </div>
+</div>
+
 <div class="home-hero" id="home-hero">
   <!-- Video background -->
   <video class="bg-video" autoplay muted loop playsinline id="hero-video">
@@ -21,7 +35,7 @@ hide_page_header: true
   <div class="video-controls">
     <button class="video-toggle" id="video-toggle" aria-label="Pause video">
       <span class="pause-icon">⏸️</span>
-      <span class="play-icon">▶️</span>
+      <span class="play-icon" style="display: none;">▶️</span>
     </button>
   </div>
 
@@ -70,55 +84,71 @@ hide_page_header: true
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Loading screen
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      const loadingScreen = document.getElementById('loading-screen');
+      if (loadingScreen) {
+        loadingScreen.classList.add('hidden');
+        setTimeout(function() {
+          loadingScreen.remove();
+        }, 500);
+      }
+    }, 1500);
+  });
+
   // Video controls
   const video = document.getElementById('hero-video');
   const videoToggle = document.getElementById('video-toggle');
-  const playIcon = videoToggle.querySelector('.play-icon');
-  const pauseIcon = videoToggle.querySelector('.pause-icon');
   
-  // Video toggle functionality
-  videoToggle.addEventListener('click', function() {
-    if (video.paused) {
-      video.play();
-      playIcon.style.display = 'none';
-      pauseIcon.style.display = 'inline';
-      videoToggle.setAttribute('aria-label', 'Pause video');
-    } else {
-      video.pause();
-      playIcon.style.display = 'inline';
-      pauseIcon.style.display = 'none';
-      videoToggle.setAttribute('aria-label', 'Play video');
-    }
-  });
-  
-  // Ensure video plays on mobile
-  video.addEventListener('loadedmetadata', function() {
-    video.play().catch(function(error) {
-      console.log('Auto-play was prevented:', error);
-    });
-  });
-  
-  // Parallax effect on scroll
-  let ticking = false;
-  function updateParallax() {
-    const scrolled = window.pageYOffset;
-    const heroHeight = window.innerHeight;
+  if (video && videoToggle) {
+    const playIcon = videoToggle.querySelector('.play-icon');
+    const pauseIcon = videoToggle.querySelector('.pause-icon');
     
-    if (scrolled < heroHeight) {
-      const parallaxSpeed = scrolled * 0.5;
-      video.style.transform = `translate(-50%, -50%) translateY(${parallaxSpeed}px)`;
+    // Video toggle functionality
+    videoToggle.addEventListener('click', function() {
+      if (video.paused) {
+        video.play();
+        if (playIcon) playIcon.style.display = 'none';
+        if (pauseIcon) pauseIcon.style.display = 'inline';
+        videoToggle.setAttribute('aria-label', 'Pause video');
+      } else {
+        video.pause();
+        if (playIcon) playIcon.style.display = 'inline';
+        if (pauseIcon) pauseIcon.style.display = 'none';
+        videoToggle.setAttribute('aria-label', 'Play video');
+      }
+    });
+    
+    // Ensure video plays on mobile
+    video.addEventListener('loadedmetadata', function() {
+      video.play().catch(function(error) {
+        console.log('Auto-play was prevented:', error);
+      });
+    });
+    
+    // Parallax effect on scroll
+    let ticking = false;
+    function updateParallax() {
+      const scrolled = window.pageYOffset;
+      const heroHeight = window.innerHeight;
+      
+      if (scrolled < heroHeight) {
+        const parallaxSpeed = scrolled * 0.3;
+        video.style.transform = `translate(-50%, -50%) translateY(${parallaxSpeed}px)`;
+      }
+      ticking = false;
     }
-    ticking = false;
-  }
-  
-  function requestParallax() {
-    if (!ticking) {
-      requestAnimationFrame(updateParallax);
-      ticking = true;
+    
+    function requestParallax() {
+      if (!ticking) {
+        requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
     }
+    
+    window.addEventListener('scroll', requestParallax);
   }
-  
-  window.addEventListener('scroll', requestParallax);
   
   // Smooth scroll for internal links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -135,53 +165,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
-<style>
-/* Additional specific styles for this page */
-.home-hero .hero__social a {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.home-hero .hero__social a:hover {
-  color: #FFDE4D;
-  transform: translateY(-2px);
-}
-
-.home-hero .hero__social a:not(:last-child)::after {
-  content: "•";
-  margin: 0 1rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-@media (max-width: 768px) {
-  .hero-stats {
-    gap: 1.5rem;
-  }
-  
-  .stat-number {
-    font-size: 2rem;
-  }
-  
-  .video-controls {
-    top: 1rem;
-    right: 1rem;
-  }
-  
-  .video-toggle {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .hero-content .lead {
-    font-size: 1.1rem;
-  }
-  
-  .scroll-down {
-    bottom: 1rem;
-  }
-}
-</style>
