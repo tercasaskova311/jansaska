@@ -23,8 +23,9 @@ hide_page_header: true
 
 <div class="home-hero" id="home-hero">
   <!-- Video background -->
-  <video class="bg-video" autoplay muted loop playsinline id="hero-video">
-    <source src="{{ '/videos/race_small.mp4' | relative_url }}" type="video/mp4">
+  <video class="bg-video" autoplay muted loop playsinline preload="auto" id="hero-video">
+    <source src="{{ site.baseurl }}/videos/race_small.mp4" type="video/mp4">
+    <source src="https://tercasaskova311.github.io/jansaska/videos/race_small.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
@@ -105,13 +106,73 @@ document.addEventListener('DOMContentLoaded', function() {
     const playIcon = videoToggle.querySelector('.play-icon');
     const pauseIcon = videoToggle.querySelector('.pause-icon');
     
+    console.log('Video element found:', video);
+    console.log('Video sources:', video.querySelectorAll('source'));
+    
+    // Enhanced video loading with multiple attempts
+    function attemptVideoPlay() {
+      const playPromise = video.play();
+      
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => {
+            console.log('Video autoplay successful');
+            if (playIcon) playIcon.style.display = 'none';
+            if (pauseIcon) pauseIcon.style.display = 'inline';
+          })
+          .catch(error => {
+            console.log('Autoplay was prevented:', error);
+            // Try again after a short delay
+            setTimeout(() => {
+              video.play().catch(e => console.log('Retry failed:', e));
+            }, 1000);
+          });
+      }
+    }
+    
+    // Video event listeners for debugging
+    video.addEventListener('loadstart', () => console.log('Video: loadstart'));
+    video.addEventListener('loadeddata', () => console.log('Video: loadeddata'));
+    video.addEventListener('loadedmetadata', function() {
+      console.log('Video: loadedmetadata', `${video.videoWidth}x${video.videoHeight}`, `${video.duration}s`);
+      attemptVideoPlay();
+    });
+    video.addEventListener('canplay', () => {
+      console.log('Video: canplay');
+      attemptVideoPlay();
+    });
+    video.addEventListener('canplaythrough', () => console.log('Video: canplaythrough'));
+    video.addEventListener('play', () => console.log('Video: started playing'));
+    video.addEventListener('pause', () => console.log('Video: paused'));
+    video.addEventListener('error', (e) => {
+      console.error('Video error:', e);
+      console.error('Video error details:', video.error);
+    });
+    
+    // Test video sources
+    video.querySelectorAll('source').forEach((source, index) => {
+      console.log(`Source ${index + 1}:`, source.src);
+      
+      // Test if source is accessible
+      fetch(source.src, { method: 'HEAD' })
+        .then(response => {
+          console.log(`Source ${index + 1} status:`, response.status, response.statusText);
+        })
+        .catch(error => {
+          console.error(`Source ${index + 1} failed:`, error);
+        });
+    });
+    
     // Video toggle functionality
     videoToggle.addEventListener('click', function() {
       if (video.paused) {
-        video.play();
-        if (playIcon) playIcon.style.display = 'none';
-        if (pauseIcon) pauseIcon.style.display = 'inline';
-        videoToggle.setAttribute('aria-label', 'Pause video');
+        video.play().then(() => {
+          if (playIcon) playIcon.style.display = 'none';
+          if (pauseIcon) pauseIcon.style.display = 'inline';
+          videoToggle.setAttribute('aria-label', 'Pause video');
+        }).catch(error => {
+          console.error('Manual play failed:', error);
+        });
       } else {
         video.pause();
         if (playIcon) playIcon.style.display = 'inline';
@@ -120,12 +181,28 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
-    // Ensure video plays on mobile
-    video.addEventListener('loadedmetadata', function() {
-      video.play().catch(function(error) {
-        console.log('Auto-play was prevented:', error);
+    // Intersection Observer to play when in view
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && video.paused) {
+          console.log('Video came into view, attempting to play');
+          video.play().catch(error => console.log('Intersection play failed:', error));
+        }
       });
-    });
+    }, { threshold: 0.5 });
+    observer.observe(video);
+    
+    // Force play on user interaction
+    document.addEventListener('click', function playOnFirstClick() {
+      if (video.paused) {
+        video.play().then(() => {
+          console.log('Video started after user interaction');
+        }).catch(error => {
+          console.log('Video play after interaction failed:', error);
+        });
+      }
+      document.removeEventListener('click', playOnFirstClick);
+    }, { once: true });
     
     // Parallax effect on scroll
     let ticking = false;
@@ -148,6 +225,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     window.addEventListener('scroll', requestParallax);
+  } else {
+    console.error('Video or video toggle element not found');
   }
   
   // Smooth scroll for internal links
