@@ -312,7 +312,7 @@ hide_page_header: true
 <div class="home-hero" id="home-hero">
   <!-- Video background -->
   <video class="bg-video" muted loop playsinline preload="auto" id="hero-video">
-    <source src="{{ site.baseurl }}/videos/race_small.mp4" type="video/mp4">
+    <source src="/videos/race_small.mp4" type="video/mp4">
     <source src="https://tercasaskova311.github.io/jansaska/videos/race_small.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
