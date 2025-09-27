@@ -320,13 +320,6 @@ hide_page_header: true
   <!-- Video overlay -->
   <div class="video-overlay"></div>
 
-  <!-- Video controls -->
-  <div class="video-controls">
-    <button class="video-toggle" id="video-toggle" aria-label="Toggle video">
-      <span class="pause-icon">⏸️</span>
-      <span class="play-icon" style="display: none;">▶️</span>
-    </button>
-  </div>
 
   <!-- Hero content -->
   <div class="hero-content">
@@ -336,7 +329,7 @@ hide_page_header: true
 
     <div class="hero__actions">
       <a class="btn btn--burgundy" href="{{ '/racing/' | relative_url }}">View Racing Results</a>
-      <a class="btn btn--light-outline" href="{{ '/about/' | relative_url }}">About Me</a>
+      <a class="btn btn--light-outline" href="{{ '/about/' | relative_url }}">About Jan</a>
       <a class="btn btn--light-outline" href="{{ '/collaboration/' | relative_url }}">Collaborate</a>
     </div>
 
@@ -388,13 +381,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 1500);
   });
 
-  // Video controls and autoplay
+  // Video autoplay
   const video = document.getElementById('hero-video');
-  const videoToggle = document.getElementById('video-toggle');
   
-  if (video && videoToggle) {
-    const playIcon = videoToggle.querySelector('.play-icon');
-    const pauseIcon = videoToggle.querySelector('.pause-icon');
+  if (video) {
     
     console.log('✅ Video element found');
     console.log('📹 Video sources:', Array.from(video.querySelectorAll('source')).map(s => s.src));
@@ -415,19 +405,10 @@ document.addEventListener('DOMContentLoaded', function() {
         playPromise
           .then(() => {
             console.log('✅ Video autoplay successful!');
-            if (pauseIcon) pauseIcon.style.display = 'inline';
-            if (playIcon) playIcon.style.display = 'none';
-            videoToggle.setAttribute('aria-label', 'Pause video');
           })
           .catch(error => {
             console.warn('❌ Autoplay prevented:', error.name);
             console.log('💡 Click anywhere to start video');
-            if (pauseIcon) pauseIcon.style.display = 'none';
-            if (playIcon) playIcon.style.display = 'inline';
-            videoToggle.setAttribute('aria-label', 'Play video');
-            
-            // Show a subtle indication that user interaction is needed
-            videoToggle.style.animation = 'pulse 2s infinite';
           });
       }
     }
@@ -470,29 +451,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('touchstart', enableVideoOnInteraction);
     document.addEventListener('keydown', enableVideoOnInteraction);
     
-    // Video toggle functionality
-    videoToggle.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      if (video.paused) {
-        video.play().then(() => {
-          console.log('▶️ Manual play successful');
-          if (playIcon) playIcon.style.display = 'none';
-          if (pauseIcon) pauseIcon.style.display = 'inline';
-          videoToggle.setAttribute('aria-label', 'Pause video');
-          videoToggle.style.animation = 'none';
-        }).catch(error => {
-          console.error('❌ Manual play failed:', error);
-        });
-      } else {
-        video.pause();
-        console.log('⏸️ Video paused manually');
-        if (playIcon) playIcon.style.display = 'inline';
-        if (pauseIcon) pauseIcon.style.display = 'none';
-        videoToggle.setAttribute('aria-label', 'Play video');
-      }
-    });
     
     // Intersection Observer for viewport visibility
     const observer = new IntersectionObserver((entries) => {
