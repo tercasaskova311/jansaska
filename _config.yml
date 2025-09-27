@@ -1,78 +1,43 @@
+# Site settings
 title: "Jan Sáska - Elite MTB Racer"
 masthead_title: "Jan Sáska"
 url: "https://tercasaskova311.github.io"
 baseurl: "/jansaska"
 repository: "tercasaskova311/jansaska"
 
-# Theme configuration
+# Theme
 minimal_mistakes_skin: "default"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"  # Pin to specific version
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# Site author
+# Author
 author:
   avatar: "/images/DSC05016.jpeg"
-  name: "Jan Sáska"
+  name: "Jan Sáška"
   bio: "Professional MTB XCO Rider • Elite National Champion • World Cup Competitor"
-  teaser: "/images/DSC05016.jpeg"
   location: "Stachy, Czechia"
   email: "saskahonza@gmail.com"
   links:
     - label: "Instagram"
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/h0nza_saska/"
-    - label: "Strava"
+    - label: "Strava" 
       icon: "fab fa-strava"
       url: "https://www.strava.com/athletes/8804172"
 
-# Site settings
-locale: "en-US"
-title_separator: "-"
-subtitle: "Elite MTB XCO Rider"
-name: "Jan Sáska"
-description: "Professional mountain bike cross-country rider from Czech Republic. Elite National Champion and World Cup competitor."
-teaser: "/images/DSC05016.jpeg"
-logo: "/images/DSC05016.jpeg"
-masthead_title: "Jan Sáska"
-breadcrumbs: false
-words_per_minute: 160
-
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+highlighter: rouge
+permalink: /:categories/:title/
+timezone: Europe/Prague
+breadcrumbs: false
+
+# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+  - jekyll-sitemap
   - jekyll-remote-theme
   - jekyll-seo-tag
-
-# Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
 
 # Collections
 collections:
@@ -82,19 +47,13 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
       classes: wide
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -102,14 +61,12 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
-  # _racing
   - scope:
       path: ""
       type: racing
     values:
       layout: single
       author_profile: false
-      share: false
       classes: wide
 
 # Sass/SCSS
@@ -117,13 +74,13 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: /page:num/
-timezone: Europe/Prague
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
-# Exclude from processing
+# Exclude theme example content and speed up builds
 exclude:
   - .asset-cache
   - .bundle
@@ -154,23 +111,16 @@ exclude:
   - vendor
   - .vendor
   - replit.md
+  - "**/docs/"
+  - "**/test/"
 
-# Keep files
-keep_files:
-  - .git
-  - .nojekyll
-
-# Reading Files
+# Include
 include:
   - .htaccess
   - _pages
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+# Reading Files
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Markdown Processing
 kramdown:
@@ -182,36 +132,3 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Social Sharing
-twitter:
-  username: &twitter "h0nza_saska"
-facebook:
-  username: &facebook "jansaska"
-  app_id:
-  publisher:
-social:
-  type: Person
-  name: Jan Sáska
-  links:
-    - "https://twitter.com/h0nza_saska"
-    - "https://facebook.com/jansaska"
-    - "https://instagram.com/h0nza_saska"
-    - "https://www.strava.com/athletes/8804172"
-
-# Analytics
-analytics:
-  provider: false # "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id:
-    anonymize_ip: false # true, false (default)
-
-# Site Footer
-footer:
-  links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/h0nza_saska"
-    - label: "Strava"
-      icon: "fab fa-fw fa-strava"
-      url: "https://www.strava.com/athletes/8804172"
