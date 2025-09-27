@@ -1,0 +1,28 @@
+# Development configuration for Replit
+# This overrides settings in _config.yml for local development
+
+# Replit specific settings
+url: "https://72a73f7d-48ff-40c1-9b88-206310b8c887-00-l9wx5j08x8eu.kirk.replit.dev"
+baseurl: ""  # No baseurl for Replit development
+host: "0.0.0.0"
+port: 5000
+
+# Development specific settings
+livereload: true
+incremental: true
+safe: false
+
+# Faster builds for development
+future: true
+show_drafts: true
+unpublished: false
+
+# Enable live reload
+livereload_port: 35729
+
+# Disable compression for faster builds
+compress_html:
+  clippings: []
+  ignore:
+    envs:
+      - development
