@@ -5,6 +5,7 @@ integrations = ["github:1.0.0"]
 
 [nix]
 channel = "stable-25_05"
+packages = ["inframap"]
 
 [workflows]
 runButton = "Project"
@@ -33,10 +34,6 @@ outputType = "webview"
 [[ports]]
 localPort = 5000
 externalPort = 80
-
-[[ports]]
-localPort = 32909
-externalPort = 3000
 
 [deployment]
 deploymentTarget = "autoscale"
