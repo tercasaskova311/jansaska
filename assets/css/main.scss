@@ -1,4 +1,5 @@
-# required blank front matter so Jekyll compiles this file
+---
+# Only this comment needs to be between the --- lines for Jekyll to process this as SCSS
 ---
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";

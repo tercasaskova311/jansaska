@@ -1,6 +1,6 @@
 # Navigation structure for the site
 main: 
-  - title: "About"
+  - title: "About Jan"
     url: /about/
   
   - title: "Racing"

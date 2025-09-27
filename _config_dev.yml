@@ -1,0 +1,50 @@
+# Development configuration for Replit
+# This overrides settings in _config.yml for local development
+
+# Replit specific settings
+url: "https://72a73f7d-48ff-40c1-9b88-206310b8c887-00-l9wx5j08x8eu.kirk.replit.dev"
+baseurl: ""  # No baseurl for Replit development
+host: "0.0.0.0"
+port: 5000
+
+# Development specific settings
+safe: false
+incremental: false
+
+# Faster builds for development
+future: true
+show_drafts: true
+unpublished: false
+
+# Disable problematic plugins temporarily
+plugins_dir: []
+
+# Exclude theme docs that might be causing issues
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+  - jekyll-remote-theme-*
