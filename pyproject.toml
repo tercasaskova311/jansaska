@@ -1,0 +1,10 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "frontmatter>=3.0.8",
+    "geopy>=2.4.1",
+    "getorg>=0.3.1",
+]
