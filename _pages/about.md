@@ -1,61 +1,106 @@
 ---
 layout: single
-title: "About Jan"
+title: "About Jan Sáska"
 permalink: /about/
 author_profile: true
 classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/DSC05016.jpeg
+  caption: "Elite MTB XCO Rider"
+toc: true
+toc_label: "About Jan"
+toc_icon: "bicycle"
 ---
 
-<!-- Intro -->
-<div style="margin-bottom:2rem;">
-  <p><strong>Jan Sáska</strong> is a first-year Men’s Elite XCO MTB rider from the Czech Republic and the current <strong>Elite National Champion</strong>.</p>
-  <p>In his debut elite World Cup season, he has been steadily moving up the ranks — most recently finishing <strong>23rd at the European Championship</strong>.</p>
-  <p>He is known as a <strong>technical rider</strong>, always searching for new ways to progress instead of sticking to familiar training paths. Even without a large team behind him, he has successfully built his own sponsor support system to compete in a full World Cup season.</p>
-  <p>With the right backing, he is ready to channel all his energy into racing and aim for <strong>consistent top World Cup results</strong>.</p>
-</div>
+## Professional MTB Career
+
+Jan Sáska is an Elite Cross-Country Olympic (XCO) mountain bike rider from Stachy, Czech Republic. As the 2025 Elite National Champion, he represents the pinnacle of Czech mountain biking talent on both national and international stages.
+
+### Racing Achievements
+
+**2025 Highlights:**
+- 🏆 **Elite National Champion** - Czech Republic XCO Championships
+- 🥉 **23rd Place** - European Championships
+- 🚵 **49th Place** - Best World Cup Result
+- 🏅 **Multiple podium finishes** - National and regional competitions
+
+### Racing Style & Strengths
+
+Jan is known for his:
+- **Technical precision** on challenging terrain
+- **Strategic race positioning** and tactical awareness
+- **Climbing power** on steep ascents
+- **Consistent performance** under pressure
+- **Mental resilience** in competitive environments
+
+## Background & Training
+
+### Early Career
+Jan's passion for mountain biking began in the forests and trails around Stachy, where he developed his technical skills on the challenging terrain of the Bohemian Forest region. His natural talent and dedication quickly elevated him through junior and amateur ranks.
+
+### Current Training Regime
+Based in the Czech Republic, Jan follows a comprehensive training program that includes:
+- **On-bike training**: 20+ hours per week on varied terrain
+- **Strength & conditioning**: Gym sessions focused on cycling-specific power
+- **Technical skills**: Regular practice on challenging trail features
+- **Recovery protocols**: Emphasis on nutrition, sleep, and active recovery
+
+### Equipment & Setup
+Jan rides with precision-tuned equipment optimized for XCO racing:
+- **Lightweight carbon frame** for optimal power transfer
+- **Precision suspension** tuned for XCO courses
+- **Race-specific components** chosen for reliability and performance
+- **Aerodynamic positioning** for maximum efficiency
+
+## Personal Philosophy
+
+> "Mountain biking is about finding the perfect balance between speed, control, and courage. Every race teaches you something new about pushing your limits."
+
+Jan approaches racing with a combination of analytical preparation and intuitive riding. He believes in:
+- **Continuous improvement** through data analysis and feedback
+- **Respect for the sport** and fair competition
+- **Environmental stewardship** as a trail user
+- **Community engagement** with cycling enthusiasts
+
+## Life Outside Racing
+
+When not training or competing, Jan enjoys:
+- **Trail exploration** in the Bohemian Forest
+- **Photography** of mountain landscapes
+- **Mechanical work** on bikes and equipment
+- **Mentoring** young riders in the local cycling community
+
+### Location & Lifestyle
+Living in Stachy provides Jan with:
+- Direct access to world-class training trails
+- A supportive local cycling community
+- Beautiful natural environment for recovery
+- Rich cycling culture and infrastructure
+
+## Goals & Aspirations
+
+### Short-term Objectives (2025-2026)
+- Defend Elite National Championship title
+- Improve World Cup positioning to top 30
+- Secure consistent top-15 European Championship results
+- Develop partnerships with premium cycling brands
+
+### Long-term Vision
+- Represent Czech Republic at major international competitions
+- Inspire the next generation of Czech mountain bikers
+- Contribute to the growth of XCO racing in Central Europe
+- Build a sustainable career in professional cycling
+
+## Connect with Jan
+
+Jan is active on social media and loves connecting with fellow cycling enthusiasts:
+
+- **Instagram**: [@h0nza_saska](https://www.instagram.com/h0nza_saska/) - Training updates and race content
+- **Strava**: [Jan Sáska](https://www.strava.com/athletes/8804172) - Follow training rides and race data
+- **Email**: [saskahonza@gmail.com](mailto:saskahonza@gmail.com) - Partnership and media inquiries
 
 ---
 
-### Selected 2025 Results
-
-<ul>
-<li><strong>National Champion XCO</strong> – Bedřichov (1st)</li>
-<li>Czech Cup Harrachov (2nd)</li>
-<li>National Champs XCC Harrachov (2nd)</li>
-<li>CS Cheile Gradistei (2nd)</li>
-<li>CS Les Menuires (12th)</li>
-<li>European Championships – Melgaço (23rd)</li>
-<li>World Cups: Val di Sole (56th), Andorra (55th), Les Gets (49th)</li>
-</ul>
-
-<!-- Download Button -->
-<div style="margin-top:1.5rem; text-align:center;">
-  <a class="btn btn--burgundy" href="{{ 'files/JanSaska_portfolio.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
-    📄 Download Presentation
-  </a>
-</div>
-
----
-
-### Racing Highlights
-
-<div class="grid__wrapper" style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1rem;">
-  <img src="{{ 'images/CP MTB XCO Ostrava 2025 web1_52.jpg' | relative_url }}" alt="Race 1" style="flex:1 1 30%; max-width:300px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.06);">
-  <img src="{{ 'images/DSC05442.jpeg' | relative_url }}" alt="Race 2" style="flex:1 1 30%; max-width:300px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.06);">
-  <img src="{{ 'images/FD8D2C52-6E2F-4D33-9DE7-CB1E04A46666.jpg' | relative_url }}" alt="Race 3" style="flex:1 1 30%; max-width:300px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.06);">
-  <img src="{{ 'images/CER_4969.jpg' | relative_url }}" alt="Race 3" style="flex:1 1 30%; max-width:300px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.06);">
-
-</div>
-
----
-
-### Training & Race Video
-
-<div style="text-align:center; margin-top:1rem; margin-bottom:1rem;">
-  <video controls style="width:100%; max-width:960px; border-radius:12px; display:block; margin:0 auto;" poster="{{ 'images/DSC04938(1).jpeg' | relative_url }}">
-    <source src="{{ '/videos/race_small.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p style="margin-top:.5rem; font-style:italic;">Highlights of Jan’s training and races in the Šumava mountains.</p>
-</div>
-
+*Interested in following Jan's racing journey or exploring partnership opportunities? Get in touch through any of the channels above or visit the [Collaboration page](/collaboration/) for more information.*

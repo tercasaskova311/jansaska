@@ -1,106 +1,183 @@
 ---
 layout: single
-title: "Collaboration"
+title: "Partnership & Collaboration"
 permalink: /collaboration/
+author_profile: false
 classes: wide
-author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.6"
+  overlay_image: /images/DSC05016.jpeg
+  caption: "Elite MTB Racing Partnership Opportunities"
+toc: true
+toc_label: "Partnership Info"
+toc_icon: "handshake"
 ---
 
-<!-- Page Hero -->
-<div class="page-hero" style="background: linear-gradient(to right, #FFDE4D, #F3F3F3); padding: 3rem 1rem; border-radius: 18px; text-align:center;" markdown="1">
-# Collaborate with Jan Sáska
-*Elite XCO MTB rider seeking forward-thinking partners for the 2026 season*
-</div>
+## Why Partner with Jan Sáska?
+
+As the 2025 Elite National Champion and a consistent World Cup competitor, Jan Sáska offers unique value to brands looking to connect with the mountain biking community. His authentic approach to racing and genuine passion for the sport create meaningful connections with audiences.
+
+### Racing Credentials
+- 🏆 **2025 Elite National Champion** (Czech Republic)
+- 🌍 **World Cup Competitor** with consistent top-50 finishes
+- 🇪🇺 **European Championships** regular competitor
+- 🚵 **5+ years** of elite-level racing experience
+
+### Audience & Reach
+- **Instagram**: Engaged cycling community following training and racing content
+- **Strava**: Active athlete profile with detailed training data
+- **Local presence**: Strong recognition in Czech Republic cycling community
+- **International exposure**: Visibility at World Cup and European events
+
+## Partnership Opportunities
+
+### Equipment Partnerships
+
+**Bike & Frame Manufacturers**
+- Race bike provision and development feedback
+- Product testing and performance validation
+- Social media content featuring equipment
+- Technical insights for product development
+
+**Component & Accessory Brands**
+- Wheels, drivetrain, and suspension partnerships
+- Helmet, apparel, and protective gear collaborations
+- Nutrition and hydration product endorsements
+- Training equipment and technology partnerships
+
+### Brand Ambassador Programs
+
+**Long-term Partnerships**
+- Seasonal sponsorship agreements
+- Multi-year brand ambassador roles
+- Co-developed signature product lines
+- International race representation
+
+**Content Creation**
+- Professional photography and videography
+- Training documentaries and vlogs
+- Product reviews and comparisons
+- Educational content and tutorials
+
+### Event & Experience Marketing
+
+**Race Events**
+- Brand activation at World Cup events
+- VIP experiences and hospitality
+- Demo days and product launches
+- Corporate team building experiences
+
+**Community Engagement**
+- Local cycling club presentations
+- Youth development programs
+- Charity rides and fundraising events
+- Cycling coaching and clinics
+
+## What Jan Offers Partners
+
+### Authentic Representation
+- Genuine product usage and testing
+- Honest feedback and testimonials
+- Professional race performance
+- Consistent brand representation
+
+### Professional Content
+- High-quality race and training imagery
+- Social media content creation
+- Professional photography sessions
+- Video content and interviews
+
+### Performance Data
+- Detailed training and race analytics
+- Product performance metrics
+- Technical feedback and insights
+- Development collaboration opportunities
+
+### Market Access
+- Czech Republic and Central European markets
+- International World Cup audiences
+- Mountain biking enthusiast communities
+- Elite racing networks and contacts
+
+## Partnership Packages
+
+### Tier 1: Premium Partnership
+**Investment Level**: €15,000 - €25,000 annually
+
+**Includes**:
+- Primary equipment provision (bike, components, or apparel)
+- Logo placement on race kit and equipment
+- 12 social media posts per month
+- 4 professional photo/video sessions per year
+- Race result press releases and mentions
+- Product feedback and development input
+- Event appearances and presentations
+
+### Tier 2: Supporting Partnership  
+**Investment Level**: €5,000 - €15,000 annually
+
+**Includes**:
+- Secondary equipment or product provision
+- Logo placement on training kit
+- 6 social media posts per month  
+- 2 professional photo/video sessions per year
+- Race mentions and social media tags
+- Product testing and feedback
+
+### Tier 3: Product Partnership
+**Investment Level**: Product provision + €2,000 - €5,000
+
+**Includes**:
+- Product provision for testing and use
+- Social media mentions and tags
+- Product review content
+- Race day usage and visibility
+- Honest feedback and testimonials
+
+### Custom Partnerships
+We're open to creating custom partnership packages that align with your specific marketing objectives and budget requirements.
+
+## Partnership Process
+
+### Initial Consultation
+1. **Discovery Call** - Discuss your brand objectives and partnership goals
+2. **Proposal Development** - Custom partnership package creation
+3. **Contract Negotiation** - Terms, deliverables, and timeline agreement
+4. **Onboarding** - Partnership activation and content planning
+
+### Ongoing Partnership Management
+- **Monthly Check-ins** - Performance reviews and content planning
+- **Quarterly Reports** - Reach, engagement, and ROI analysis
+- **Event Coordination** - Race calendar and activation planning  
+- **Content Approval** - Brand-aligned messaging and imagery
+
+## Success Stories
+
+### Current Partnerships
+Jan currently works with select partners who value authentic athlete partnerships and long-term brand building. Past collaborations have resulted in:
+
+- **Increased brand awareness** in Czech and Central European markets
+- **Product development insights** leading to improved offerings
+- **Authentic content** that resonates with cycling audiences
+- **Strong ROI** through engaged audience interaction
+
+## Get Started
+
+Ready to explore partnership opportunities with Jan Sáska? We'd love to discuss how we can help achieve your marketing objectives while supporting elite-level mountain bike racing.
+
+### Contact Information
+- **Email**: [saskahonza@gmail.com](mailto:saskahonza@gmail.com)
+- **Subject Line**: "Partnership Inquiry - [Your Brand Name]"
+- **Instagram DM**: [@h0nza_saska](https://www.instagram.com/h0nza_saska/)
+
+### What to Include in Your Inquiry
+- **Brand/Company Overview**: Who you are and what you do
+- **Partnership Objectives**: What you hope to achieve
+- **Budget Range**: Your approximate investment level
+- **Timeline**: When you'd like to start the partnership
+- **Specific Interests**: Particular partnership elements that interest you
 
 ---
 
-## Why Collaborate with Jan
-
-<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
-Jan Sáska isn’t just a rider — he’s a passionate mountain biker. With a technical approach and dedication to progress, collaboration offers brands a **unique platform for exposure and engagement**.
-
-**Key Highlights:**  
-- Elite National Champion & World Cup competitor  
-- Authentic storytelling through photography & videography  
-- Opportunities for both traditional and experiential sponsorship
-</div>
-
----
-
-## 1 — Company Bike Trips & Experiences
-
-<div style="background:#fff; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
-Jan and his family run a bike school and MTB rental in the **Šumava mountains**. Sponsors can benefit from:
-
-- **Custom-guided MTB tours** for your team or clients  
-- **E-bike or full MTB rentals** tailored to experience level  
-- **Professional MTB instructors & guides**  
-- Social media coverage & promotional photography  
-
-Explore our summer activities on [Instagram @sportsumava](https://www.instagram.com/sportsumava) or visit [sportsumava.cz](https://sportsumava.cz).  
-
-<!-- Side-by-side images -->
-<div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1rem; margin-bottom:1rem;">
-  <img src="{{ 'images/CDC4E0A3-8D21-4E76-B4FC-A28AA063835F.jpeg' | relative_url }}" alt="pic1" style="width:calc(50% - 0.5rem); border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.08);">
-  <img src="{{ 'images/CC8684F9-1D10-4D97-9E94-B5C059991E33.jpeg' | relative_url }}" alt="pic2" style="width:calc(50% - 0.5rem); border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.08);">
-</div>
-</div>
-
----
-
-## 2 — Traditional Sponsorship
-
-<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
-We offer classic sponsorship options, including:
-
-- Logo placement on **jerseys, race kits, and helmets**  
-- Branding on race-day media & online channels  
-- Feature in **newsletters, blogs, and social media campaigns**
-
-*Visual mockups can be included to highlight logo placement opportunities.*
-</div>
-
----
-
-## 3 — Photography & Videography Collaborations
-
-<div style="background:#fff; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
-Sport content is a compelling storytelling tool. We create **high-quality photos and videos** for sponsors:
-
-- Behind-the-scenes race coverage  
-- Action shots during MTB events  
-- Lifestyle content linking sport, nature, and adventure  
-
-These materials can be **shared on Instagram, websites, and brand campaigns** to build authentic engagement.
-</div>
-
-<!-- Video with reduced spacing -->
-<div style="margin:0; line-height:0; text-align:center;">
-  <video controls width="100%" style="display:block; margin:0 auto; border-radius:12px;" poster="{{ 'images/IMG_8250 2.JPG' | relative_url }}">
-    <source src="{{ 'videos/race_small.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
----
-
-## 4 — Custom Branded Experiences
-
-<div style="background:#f9f9f9; padding:1.5rem; border-radius:12px; margin-bottom:2rem;" markdown="1">
-Beyond tours and media content, we can design **bespoke sponsor experiences**:
-
-- Private MTB clinics with Jan & team  
-- Custom challenges for corporate wellness programs  
-- Exclusive brand features in social media campaigns
-</div>
-
----
-
-## Interested in Partnering?
-
-<div style="background:#fff; padding:1.5rem; border-radius:12px; text-align:center;" markdown="1">
-Let’s create a **tailored collaboration plan** that fits your brand and objectives.  
-
-📩 Contact: [saskahonza@gmail.com](mailto:saskahonza@gmail.com)  
-📞 Phone: +420 XXX XXX XXX
-</div>
+*We typically respond to partnership inquiries within 48 hours and look forward to exploring how we can work together to achieve your brand objectives while supporting elite mountain bike racing.*

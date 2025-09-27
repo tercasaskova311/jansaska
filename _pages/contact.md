@@ -1,34 +1,53 @@
 ---
 layout: single
-title: "Contact"
+title: "Get in Touch"
 permalink: /contact/
-author_profile: false
+author_profile: true
 classes: wide
 ---
 
-If you’d like to collaborate, sponsor, or have questions, the fastest way to reach me is by email.  
+## Contact Jan Sáska
 
-- 📧 **Email:** [saskahonza@gmail.com](mailto:saskahonza@gmail.com)  
-- 📷 **Instagram:** [@h0nza.saska](https://www.instagram.com/h0nza.saska)  
-- 🚴 **Strava:** [Jan Sáska Profile](https://www.strava.com/athletes/8804172?utm_source=ios_share&utm_medium=social&share_sig=E0C65D9D1758043177&_branch_match_id=1309878016855334805&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy4pSixL1EssKNDLyczL1g9KCU4trzDK9QxPsq8rSk1LLSrKzEuPTyrKLy9OLbJ1zijKz00FACXYAFk9AAAA)  
-- 📍 **Location:** Stachy, Czechia  
+Whether you're interested in partnerships, media inquiries, or just want to connect about mountain biking, Jan is always happy to hear from fellow cycling enthusiasts.
 
-[Email me](mailto:saskahonza@gmail.com){: .btn .btn--primary }  
+### Direct Contact
+- **Email**: [saskahonza@gmail.com](mailto:saskahonza@gmail.com)
+- **Response Time**: Typically within 24-48 hours
+
+### Social Media
+- **Instagram**: [@h0nza_saska](https://www.instagram.com/h0nza_saska/) - Daily training updates and race content
+- **Strava**: [Jan Sáska Athletes/8804172](https://www.strava.com/athletes/8804172) - Follow training activities
+
+### Location
+**Based in**: Stachy, Czech Republic  
+**Racing**: European World Cup circuit  
+**Training**: Bohemian Forest region trails
+
+### Inquiry Types
+
+**Partnership & Sponsorship**
+For brand partnerships and sponsorship opportunities, please visit our [Collaboration page](/collaboration/) for detailed information about partnership packages and processes.
+
+**Media & Press**
+Media professionals can reach out directly via email for:
+- Interview requests
+- Race coverage opportunities  
+- Photo/video content licensing
+- Press releases and race results
+
+**Fan Mail & General Inquiries**  
+Jan loves connecting with fellow mountain biking enthusiasts! Feel free to reach out about:
+- Training questions and advice
+- Trail recommendations in Czech Republic
+- Racing insights and experiences
+- General cycling discussions
+
+### Response Expectations
+- **Partnership inquiries**: 24-48 hours with detailed response
+- **Media requests**: Same day response when possible
+- **General inquiries**: 2-3 days for thoughtful reply
+- **During race season**: May take longer during competition travel
 
 ---
 
-<!-- Optional: uncomment after you create a Formspree form and replace the action URL. -->
-<!--
-<form action="https://formspree.io/f/REPLACE_WITH_YOUR_CODE" method="POST" class="contact-form">
-  <label>Your name
-    <input type="text" name="name" required>
-  </label>
-  <label>Your email
-    <input type="email" name="_replyto" required>
-  </label>
-  <label>Message
-    <textarea name="message" rows="6" required></textarea>
-  </label>
-  <button type="submit" class="btn btn--primary">Send</button>
-</form>
--->
+*Thank you for your interest in connecting with Jan! All messages are personally read and responded to.*

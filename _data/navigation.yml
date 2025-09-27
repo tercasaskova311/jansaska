@@ -1,22 +1,23 @@
-# Navigation structure for the site
-main: 
-  - title: "About Jan"
+# Main navigation links
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
     url: /about/
-  
   - title: "Racing"
     url: /racing/
-
   - title: "Gallery"
     url: /gallery/
-
   - title: "Collaboration"
-    url: /collaboration/   # or /cv-json/ if you're using the JSON-based version
-
-  - title: "Photography"
-    url: /photography/
-
+    url: /collaboration/
   - title: "Contact"
-    url: /contact/  # You can create a simple contact.md or mailto link
+    url: /contact/
 
- 
-
+# Footer navigation (optional)
+footer:
+  - title: "Racing Results"
+    url: /racing/
+  - title: "Photo Gallery"
+    url: /gallery/
+  - title: "Partner with Jan"
+    url: /collaboration/
