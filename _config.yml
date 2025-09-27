@@ -1,10 +1,14 @@
-title: "Home"
-masthead_title: "Home"
-url: "https://tercasaskova311.github.io"   # GitHub Pages root
+title: "Jan Sáska - Elite MTB Racer"
+masthead_title: "Jan Sáska"
+url: "https://tercasaskova311.github.io"
 baseurl: "/jansaska"
 repository: "tercasaskova311/jansaska"
-minimal_mistakes_skin: "default"
 
+# Theme configuration
+minimal_mistakes_skin: "default"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"  # Pin to specific version
+
+# Site author
 author:
   avatar: "/images/DSC05016.jpeg"
   name: "Jan Sáska"
@@ -12,79 +16,163 @@ author:
   teaser: "/images/DSC05016.jpeg"
   location: "Stachy, Czechia"
   email: "saskahonza@gmail.com"
-  instagram: "https://www.instagram.com/h0nza_saska/"
-  strava: "https://www.strava.com/athletes/8804172"
+  links:
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/h0nza_saska/"
+    - label: "Strava"
+      icon: "fab fa-strava"
+      url: "https://www.strava.com/athletes/8804172"
 
+# Site settings
+locale: "en-US"
+title_separator: "-"
+subtitle: "Elite MTB XCO Rider"
+name: "Jan Sáska"
+description: "Professional mountain bike cross-country rider from Czech Republic. Elite National Champion and World Cup competitor."
 teaser: "/images/DSC05016.jpeg"
+logo: "/images/DSC05016.jpeg"
+masthead_title: "Jan Sáska"
 breadcrumbs: false
 words_per_minute: 160
-future: true
-read_more: "disabled"
-talkmap_link: false
 
-comments:
-  provider: false
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
-atom_feed:
-  hide: false
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
-social:
-  type: Person
-  name: "Jan Sáska"
-  links:
-    - https://www.instagram.com/h0nza_saska/
-    - https://www.strava.com/athletes/8804172
-    - mailto:saskahonza@gmail.com
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-analytics:
-  provider: false
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
-include:
-  - .htaccess
-  - _pages
-  - files
+# Collections
+collections:
+  racing:
+    output: true
+    permalink: /:collection/:name/
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      classes: wide
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+  # _racing
+  - scope:
+      path: ""
+      type: racing
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      classes: wide
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Europe/Prague
+
+# Exclude from processing
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - .asset-cache
   - .bundle
-  - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/_main.js
   - assets/js/plugins
+  - assets/js/_main.js
   - assets/js/vendor
   - CHANGELOG
-  - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
-  - local
   - log
   - node_modules
-  - package.json*
+  - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
+  - /docs
+  - /test
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
+  - .vendor
+  - replit.md
 
+# Keep files
 keep_files:
   - .git
-  - .svn
+  - .nojekyll
 
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Reading Files
+include:
+  - .htaccess
+  - _pages
 
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -95,72 +183,35 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-collections:
-  racing:
-    output: true
-    permalink: /racing/:name/
+# Social Sharing
+twitter:
+  username: &twitter "h0nza_saska"
+facebook:
+  username: &facebook "jansaska"
+  app_id:
+  publisher:
+social:
+  type: Person
+  name: Jan Sáska
+  links:
+    - "https://twitter.com/h0nza_saska"
+    - "https://facebook.com/jansaska"
+    - "https://instagram.com/h0nza_saska"
+    - "https://www.strava.com/athletes/8804172"
 
-defaults:
-  # Posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+# Analytics
+analytics:
+  provider: false # "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id:
+    anonymize_ip: false # true, false (default)
 
-  # Pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      classes: wide home-hero      # Ensures hero styling applies everywhere
-      read_time: false
-      comments: false
-      share: false
-      related: false
-
-  # Portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      classes: wide home-hero
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-permalink: /:categories/:title/
-timezone: Europe/Prague
-
-theme: ~
-remote_theme: "mmistakes/minimal-mistakes"
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-  - jekyll-include-cache
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-
-compress_html:
-  clippings: all
-  ignore:
-    envs:
-      - development
-      - docker
-
-
+# Site Footer
+footer:
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/h0nza_saska"
+    - label: "Strava"
+      icon: "fab fa-fw fa-strava"
+      url: "https://www.strava.com/athletes/8804172"

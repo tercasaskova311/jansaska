@@ -4,230 +4,184 @@ title: ""
 permalink: /
 author_profile: false
 classes: wide home-hero
-hide_page_header: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/DSC05016.jpeg
+  actions:
+    - label: "View Racing Results"
+      url: "/racing/"
+      class: "btn--primary"
+    - label: "About Jan"
+      url: "/about/"
+      class: "btn--light-outline"
+    - label: "Collaborate"
+      url: "/collaboration/"
+      class: "btn--light-outline"
+  caption: "Elite MTB XCO National Champion"
+excerpt: "Elite XCO MTB National Champion 2025. Competing on the World Cup circuit with technical precision and unwavering determination."
 ---
 
-<!-- Inline CSS to force video background positioning -->
 <style>
+/* Custom hero styles that work with minimal-mistakes */
 .home-hero {
-    position: relative !important;
-    width: 100% !important;
-    height: 100vh !important;
-    overflow: hidden !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    background: #000 !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
 }
 
-.home-hero video.bg-video {
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    width: 100vw !important;
-    height: 100vh !important;
-    min-width: 100% !important;
-    min-height: 100% !important;
-    transform: translate(-50%, -50%) !important;
-    object-fit: cover !important;
-    z-index: 1 !important;
-    filter: brightness(0.8) !important;
-    pointer-events: none !important;
+.home-hero .page__hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-.video-overlay {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    z-index: 2 !important;
-    pointer-events: none !important;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 222, 77, 0.1) 30%, rgba(0, 0, 0, 0.3) 70%, rgba(255, 222, 77, 0.2) 100%) !important;
+.home-hero .page__hero-caption {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 4px;
 }
 
+/* Video background styles */
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+/* Enhanced hero content */
 .hero-content {
-    position: relative !important;
-    z-index: 3 !important;
-    text-align: center !important;
-    color: white !important;
-    max-width: 800px !important;
-    padding: 0 2rem !important;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .hero-content h1 {
-    font-size: clamp(3rem, 6vw, 5rem) !important;
-    font-weight: 700 !important;
-    line-height: 1.1 !important;
-    margin: 0 0 1rem !important;
-    letter-spacing: -0.02em !important;
-    color: white !important;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 1rem;
+    letter-spacing: -0.02em;
+    color: white;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content .accent {
-    background: linear-gradient(135deg, #FFDE4D 0%, #F4C842 100%) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    background-clip: text !important;
+    background: linear-gradient(135deg, #FFDE4D 0%, #F4C842 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .hero-content .lead {
-    color: rgba(255, 255, 255, 0.9) !important;
-    font-size: 1.3rem !important;
-    line-height: 1.6 !important;
-    margin: 0 0 2.5rem !important;
-    font-weight: 400 !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin: 0 0 2.5rem;
+    font-weight: 400;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .eyebrow {
-    color: rgba(255, 255, 255, 0.8) !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.02em !important;
-    margin: 0 0 0.5rem !important;
-    font-size: 0.95rem !important;
-    text-transform: uppercase !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.video-controls {
-    position: absolute !important;
-    top: 2rem !important;
-    right: 2rem !important;
-    z-index: 10 !important;
-}
-
-.video-toggle {
-    background: rgba(0, 0, 0, 0.5) !important;
-    border: 2px solid rgba(255, 255, 255, 0.3) !important;
-    border-radius: 50% !important;
-    width: 50px !important;
-    height: 50px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    cursor: pointer !important;
-    color: white !important;
-    font-size: 1.2rem !important;
-    transition: all 0.3s ease !important;
-}
-
-.video-toggle:hover {
-    background: rgba(0, 0, 0, 0.7) !important;
-    border-color: rgba(255, 255, 255, 0.6) !important;
-    transform: scale(1.1) !important;
-}
-
-.hero__actions {
-    display: flex !important;
-    gap: 1rem !important;
-    justify-content: center !important;
-    flex-wrap: wrap !important;
-    margin-bottom: 2.5rem !important;
-}
-
-.btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    padding: 0.875rem 1.75rem !important;
-    border-radius: 12px !important;
-    font-weight: 600 !important;
-    text-decoration: none !important;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    border: 2px solid transparent !important;
-    font-size: 0.95rem !important;
-    letter-spacing: 0.01em !important;
-}
-
-.btn--burgundy {
-    background: linear-gradient(135deg, #FFDE4D 0%, #F4C842 100%) !important;
-    color: #000 !important;
-    box-shadow: 0 4px 16px rgba(255, 222, 77, 0.4) !important;
-}
-
-.btn--burgundy:hover {
-    transform: translateY(-2px) !important;
-    box-shadow: 0 8px 24px rgba(255, 222, 77, 0.5) !important;
-    color: #000 !important;
-}
-
-.btn--light-outline {
-    background: rgba(255, 255, 255, 0.1) !important;
-    color: white !important;
-    border-color: rgba(255, 255, 255, 0.3) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-.btn--light-outline:hover {
-    background: rgba(255, 255, 255, 0.2) !important;
-    border-color: rgba(255, 255, 255, 0.5) !important;
-    transform: translateY(-2px) !important;
-    color: white !important;
-}
-
+/* Stats section */
 .hero-stats {
-    display: flex !important;
-    justify-content: center !important;
-    gap: 2rem !important;
-    margin: 2.5rem 0 !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2.5rem 0;
+    flex-wrap: wrap;
 }
 
 .stat-item {
-    text-align: center !important;
-    color: white !important;
+    text-align: center;
+    color: white;
 }
 
 .stat-number {
-    font-size: 2.5rem !important;
-    font-weight: 700 !important;
-    color: #FFDE4D !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
-    margin-bottom: 0.5rem !important;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FFDE4D;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.5rem;
 }
 
 .stat-label {
-    font-size: 0.9rem !important;
-    color: rgba(255, 255, 255, 0.8) !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.02em !important;
-    font-weight: 500 !important;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+/* Social links */
 .hero__social {
-    display: flex !important;
-    gap: 2rem !important;
-    justify-content: center !important;
-    margin-top: 1.5rem !important;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1.5rem;
 }
 
 .hero__social a {
-    color: rgba(255, 255, 255, 0.8) !important;
-    text-decoration: none !important;
-    font-weight: 500 !important;
-    transition: all 0.3s ease !important;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .hero__social a:hover {
-    color: #FFDE4D !important;
-    transform: translateY(-2px) !important;
+    color: #FFDE4D;
+    transform: translateY(-2px);
 }
 
+/* Scroll indicator */
 .scroll-down {
-    position: absolute !important;
-    bottom: 2rem !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    z-index: 3 !important;
-    color: rgba(255, 255, 255, 0.8) !important;
-    text-align: center !important;
-    animation: bounce 2s infinite !important;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
@@ -243,277 +197,142 @@ hide_page_header: true
 }
 
 .scroll-arrow {
-    font-size: 1.5rem !important;
-    color: #FFDE4D !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    font-size: 1.5rem;
+    color: #FFDE4D;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.loading-screen {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    background: linear-gradient(135deg, #000 0%, #1a1a1a 50%, #000 100%) !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    z-index: 9999 !important;
-    transition: opacity 0.5s ease, visibility 0.5s ease !important;
+/* Button styles */
+.btn--primary {
+    background: linear-gradient(135deg, #FFDE4D 0%, #F4C842 100%);
+    color: #000;
+    border: none;
+    box-shadow: 0 4px 16px rgba(255, 222, 77, 0.4);
 }
 
-.loading-screen.hidden {
-    opacity: 0 !important;
-    visibility: hidden !important;
+.btn--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(255, 222, 77, 0.5);
+    color: #000;
 }
 
+.btn--light-outline {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.btn--light-outline:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* Mobile responsiveness */
 @media (max-width: 768px) {
     .hero-content h1 {
-        font-size: 2.5rem !important;
+        font-size: 2.5rem;
     }
     
     .hero-content .lead {
-        font-size: 1.1rem !important;
-    }
-    
-    .hero__actions {
-        flex-direction: column !important;
-        align-items: stretch !important;
-    }
-    
-    .btn {
-        width: 100% !important;
+        font-size: 1.1rem;
     }
     
     .hero-stats {
-        gap: 1.5rem !important;
+        gap: 1.5rem;
     }
     
     .stat-number {
-        font-size: 2rem !important;
+        font-size: 2rem;
     }
 }
 </style>
 
-<!-- Loading Screen -->
-<div class="loading-screen" id="loading-screen">
-  <div class="loader">
-    <div class="bike-wheel">
-      <div class="spokes"></div>
-      <div class="rim"></div>
+<div class="video-container">
+  <video class="bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="{{ '/videos/race_small.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="hero-content">
+  <p class="eyebrow">Elite MTB Racer</p>
+  <h1><span class="accent">Jan Sáska</span></h1>
+  <p class="lead">Elite XCO MTB National Champion 2025. Competing on the World Cup circuit with technical precision and unwavering determination.</p>
+
+  <!-- Stats -->
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-number">1st</div>
+      <div class="stat-label">National Champion</div>
     </div>
-    <p class="loading-text">Loading Jan Sáska</p>
-    <div class="loading-bar">
-      <div class="loading-progress"></div>
+    <div class="stat-item">
+      <div class="stat-number">23rd</div>
+      <div class="stat-label">European Championships</div>
     </div>
+    <div class="stat-item">
+      <div class="stat-number">49th</div>
+      <div class="stat-label">Best World Cup</div>
+    </div>
+  </div>
+
+  <!-- Social links -->
+  <div class="hero__social">
+    <a href="https://www.instagram.com/h0nza_saska/" target="_blank">Instagram</a>
+    <a href="https://www.strava.com/athletes/8804172/" target="_blank">Strava</a>
+    <a href="mailto:saskahonza@gmail.com">Email</a>
   </div>
 </div>
 
-<div class="home-hero" id="home-hero">
-  <!-- Video background -->
-  <video class="bg-video" autoplay muted loop playsinline preload="auto" id="hero-video">
-    <source src="/videos/race_small.mp4" type="video/mp4">
-    <source src="https://tercasaskova311.github.io/jansaska/videos/race_small.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-  <!-- Video overlay -->
-  <div class="video-overlay"></div>
-
-
-  <!-- Hero content -->
-  <div class="hero-content">
-    <p class="eyebrow">Elite MTB Racer</p>
-    <h1><span class="accent">Jan Sáska</span></h1>
-    <p class="lead">Elite XCO MTB National Champion 2025. Competing on the World Cup circuit with technical precision and unwavering determination.</p>
-
-    <div class="hero__actions">
-      <a class="btn btn--burgundy" href="{{ '/racing/' | relative_url }}">View Racing Results</a>
-      <a class="btn btn--light-outline" href="{{ '/about/' | relative_url }}">About Jan</a>
-      <a class="btn btn--light-outline" href="{{ '/collaboration/' | relative_url }}">Collaborate</a>
-    </div>
-
-    <!-- Stats -->
-    <div class="hero-stats">
-      <div class="stat-item">
-        <div class="stat-number">1st</div>
-        <div class="stat-label">National Champion</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">23rd</div>
-        <div class="stat-label">European Championships</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">49th</div>
-        <div class="stat-label">Best World Cup</div>
-      </div>
-    </div>
-
-    <!-- Social links -->
-    <div class="hero__social">
-      <a href="https://www.instagram.com/h0nza_saska/" target="_blank">Instagram</a>
-      <a href="https://www.strava.com/athletes/8804172/" target="_blank">Strava</a>
-      <a href="mailto:saskahonza@gmail.com">Email</a>
-    </div>
-  </div>
-
-  <!-- Scroll indicator -->
-  <div class="scroll-down">
-    <span>Scroll to explore</span>
-    <div class="scroll-arrow">↓</div>
-  </div>
+<!-- Scroll indicator -->
+<div class="scroll-down">
+  <span>Scroll to explore</span>
+  <div class="scroll-arrow">↓</div>
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('🚀 Page loaded, initializing video...');
-  
-  // Loading screen
-  window.addEventListener('load', function() {
-    setTimeout(function() {
-      const loadingScreen = document.getElementById('loading-screen');
-      if (loadingScreen) {
-        loadingScreen.classList.add('hidden');
-        setTimeout(function() {
-          loadingScreen.remove();
-        }, 500);
-      }
-    }, 1500);
-  });
-
-  // Video autoplay
-  const video = document.getElementById('hero-video');
+  const video = document.querySelector('.bg-video');
   
   if (video) {
-    
-    console.log('✅ Video element found');
-    console.log('📹 Video sources:', Array.from(video.querySelectorAll('source')).map(s => s.src));
-    
-    // Force video properties for autoplay
+    // Enhanced autoplay for mobile compatibility
     video.muted = true;
     video.loop = true;
     video.playsInline = true;
-    video.controls = false;
     
-    // Enhanced autoplay function
-    function attemptAutoplay() {
-      console.log('🎬 Attempting video autoplay...');
-      
-      const playPromise = video.play();
-      
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => {
-            console.log('✅ Video autoplay successful!');
-          })
-          .catch(error => {
-            console.warn('❌ Autoplay prevented:', error.name);
-            console.log('💡 Click anywhere to start video');
-          });
-      }
-    }
+    const playVideo = () => {
+      video.play().catch(e => console.log('Video autoplay prevented'));
+    };
     
-    // Multiple event listeners for different load stages
-    video.addEventListener('loadstart', () => console.log('📡 Video: loadstart'));
-    video.addEventListener('loadeddata', () => console.log('📊 Video: loadeddata'));
-    video.addEventListener('loadedmetadata', function() {
-      console.log('📋 Video: loadedmetadata', `${video.videoWidth}x${video.videoHeight}`, `${video.duration}s`);
-      attemptAutoplay();
-    });
-    video.addEventListener('canplay', function() {
-      console.log('▶️ Video: canplay');
-      if (video.paused) attemptAutoplay();
-    });
-    video.addEventListener('canplaythrough', () => console.log('⚡ Video: canplaythrough'));
-    video.addEventListener('play', () => console.log('🎥 Video: started playing'));
-    video.addEventListener('pause', () => console.log('⏸️ Video: paused'));
-    video.addEventListener('error', function(e) {
-      console.error('❌ Video error:', e);
-      console.error('📋 Video error details:', video.error);
-    });
+    video.addEventListener('loadeddata', playVideo);
+    video.addEventListener('canplay', playVideo);
     
-    // Immediate autoplay attempt
-    setTimeout(attemptAutoplay, 100);
-    
-    // Force play on user interactions
-    function enableVideoOnInteraction() {
-      if (video.paused) {
-        console.log('👆 User interaction detected, starting video...');
-        attemptAutoplay();
-      }
-      // Remove listeners after first interaction
-      document.removeEventListener('click', enableVideoOnInteraction);
-      document.removeEventListener('touchstart', enableVideoOnInteraction);
-      document.removeEventListener('keydown', enableVideoOnInteraction);
-    }
-    
-    document.addEventListener('click', enableVideoOnInteraction);
-    document.addEventListener('touchstart', enableVideoOnInteraction);
-    document.addEventListener('keydown', enableVideoOnInteraction);
-    
-    
-    // Intersection Observer for viewport visibility
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting && video.paused) {
-          console.log('👀 Video came into view, attempting to play');
-          attemptAutoplay();
-        }
-      });
-    }, { threshold: 0.5 });
-    observer.observe(video);
-    
-    // Parallax effect on scroll (optional)
-    let ticking = false;
-    function updateParallax() {
-      const scrolled = window.pageYOffset;
-      const heroHeight = window.innerHeight;
-      
-      if (scrolled < heroHeight) {
-        const parallaxSpeed = scrolled * 0.3;
-        video.style.transform = `translate(-50%, -50%) translateY(${parallaxSpeed}px)`;
-      }
-      ticking = false;
-    }
-    
-    function requestParallax() {
-      if (!ticking) {
-        requestAnimationFrame(updateParallax);
-        ticking = true;
-      }
-    }
-    
-    window.addEventListener('scroll', requestParallax);
-    
-  } else {
-    console.error('❌ Video or video toggle element not found');
+    // Fallback for user interaction
+    document.addEventListener('click', playVideo, { once: true });
+    document.addEventListener('touchstart', playVideo, { once: true });
   }
-  
-  // Smooth scroll for internal links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      }
-    });
-  });
-  
-  console.log('🎉 Initialization complete!');
 });
-
-// Add pulse animation for video toggle
-const style = document.createElement('style');
-style.textContent = `
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.7; }
-  100% { transform: scale(1); opacity: 1; }
-}
-`;
-document.head.appendChild(style);
 </script>
+
+## Latest Achievements
+
+- **2025 Elite National Champion** - Czech Republic XCO Championships
+- **23rd Place** - European Championships 2024
+- **49th Place** - Best World Cup Result
+- **Multiple podium finishes** - National level competitions
+
+## Racing Focus
+
+Jan specializes in Cross-Country Olympic (XCO) mountain biking, competing at the highest international level including World Cup events and European Championships. His technical riding style and strategic race approach have earned him recognition as one of Czech Republic's top MTB talents.
+
+## Collaboration Opportunities
+
+Open to partnerships with:
+- **Bike and component manufacturers**
+- **Sports nutrition brands**
+- **Athletic wear companies**
+- **Local and international sponsors**
+
+*Ready to take your brand to the next level in professional cycling?*
