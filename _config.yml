@@ -1,43 +1,31 @@
-# Site settings
-title: "Jan Sáska - Elite MTB Racer"
-masthead_title: "Jan Sáska"
+# EMERGENCY CONFIG - MINIMAL JEKYLL BUILD
+title: "Jan Sáška - Elite MTB Racer"
 url: "https://tercasaskova311.github.io"
 baseurl: "/jansaska"
 repository: "tercasaskova311/jansaska"
 
-# Theme
-minimal_mistakes_skin: "default"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
 # Author
 author:
-  avatar: "/images/DSC05016.jpeg"
   name: "Jan Sáška"
-  bio: "Professional MTB XCO Rider • Elite National Champion • World Cup Competitor"
+  bio: "Elite MTB XCO Rider • National Champion • World Cup Competitor"
+  avatar: "/images/DSC05016.jpeg"
   location: "Stachy, Czechia"
   email: "saskahonza@gmail.com"
-  links:
-    - label: "Instagram"
-      icon: "fab fa-instagram"
-      url: "https://www.instagram.com/h0nza_saska/"
-    - label: "Strava" 
-      icon: "fab fa-strava"
-      url: "https://www.strava.com/athletes/8804172"
+
+# Theme - DISABLE remote theme for now
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minima
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title/
+permalink: /:title/
 timezone: Europe/Prague
-breadcrumbs: false
 
-# Plugins
+# ESSENTIAL plugins only
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-include-cache
 
 # Collections
 collections:
@@ -49,86 +37,35 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: posts
     values:
-      layout: single
-      author_profile: true
-      classes: wide
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      classes: wide
-  - scope:
-      path: ""
-      type: racing
-    values:
-      layout: single
-      author_profile: false
-      classes: wide
+      layout: default
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-# Exclude theme example content and speed up builds
+# AGGRESSIVE exclusions to prevent theme processing
 exclude:
-  - .asset-cache
+  - vendor
   - .bundle
-  - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - CHANGELOG
-  - config
+  - .jekyll-cache
+  - node_modules
   - Dockerfile
   - docker-compose.yaml
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs
-  - /test
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .vendor
+  - Gemfile*
+  - package*.json
+  - README.md
   - replit.md
-  - "**/docs/"
-  - "**/test/"
+  - "**/*docs*/**"
+  - "**/*test*/**"
+  - "**/*spec*/**"
+  - "**/minimal-mistakes*/**"
+  - "**/jekyll-remote-theme*/**"
+  - "assets/css/main.scss"
+  - "assets/css/*.scss"
 
 # Include
 include:
-  - .htaccess
   - _pages
 
-# Reading Files
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Markdown Processing
+# Kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  syntax_highlighter: rouge

@@ -1,4 +1,3 @@
-# Main navigation links
 main:
   - title: "Home"
     url: /
@@ -8,16 +7,9 @@ main:
     url: /racing/
   - title: "Gallery"
     url: /gallery/
+  - title: "Photography"
+    url: /photography/
   - title: "Collaboration"
     url: /collaboration/
   - title: "Contact"
     url: /contact/
-
-# Footer navigation (optional)
-footer:
-  - title: "Racing Results"
-    url: /racing/
-  - title: "Photo Gallery"
-    url: /gallery/
-  - title: "Partner with Jan"
-    url: /collaboration/
